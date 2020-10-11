@@ -59,7 +59,7 @@ Pupils should be taught to:
 |--------------------------------------------------|----------------------------------------------|
 | + Algorithms   
 + Sequence   
-+ Selection                                                                                                                                                                                                                                                                                                                                                            | + Variables   
++ Selection |                                                                                                                                                                                                                                                                                                                                                           | + Variables   
 + Computational thinking   
 + How computer networks work                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | **Key Stage 1 and 2**
