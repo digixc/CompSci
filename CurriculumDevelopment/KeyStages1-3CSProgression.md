@@ -127,7 +127,7 @@ Pupils should be taught to:
         </td>
         </tr>
 <tr>
-    <td col-span=2>
+    <td colspan=2>
 
 - Design simple algorithms in pseudocode and flowchart for real-world problems, such as using Flowol mimics to model the state and behaviors of physical systems.
 - Use 2 or more programming languages, at least one of which is textual, to solve a variety of computational problems;
