@@ -130,15 +130,15 @@ Pupils should be taught to:
     <td colspan=2>
 
 - Design simple algorithms in pseudocode and flowchart for real-world problems, such as using Flowol mimics to model the state and behaviors of physical systems.<br>
-- Use 2 or more programming languages, at least one of which is textual, to solve a variety of computational problems;
-- Understand and make appropriate use of simple data structures, such as array, list or table;
-- Design and develop modular programs that use procedures or functions;
-- Textual programming languages should be predominantly used to develop several key algorithms such as linear search and bubble sort.  Students should be taught and encouraged to apply logical reasoning to compare alternative algorithms for the same problem;
-- Understand simple Boolean logic and the use of logic gates  in circuits;
-- Understand why and how numbers can be represented in binary, and be able to carry out simple binary addition, binary to decimal conversion;
-- Understand how text, images and sound can be represented in a computer system;
-- Understand the hardware and software components that make up computer systems, and how they communicate with one another and with other systems;
-- Understand how instructions are stored and executed within a computer system (the stored program concept);
+- Use 2 or more programming languages, at least one of which is textual, to solve a variety of computational problems;<br>
+- Understand and make appropriate use of simple data structures, such as array, list or table;<br>
+- Design and develop modular programs that use procedures or functions;<br>
+- Textual programming languages should be predominantly used to develop several key algorithms such as linear search and bubble sort.  Students should be taught and encouraged to apply logical reasoning to compare alternative algorithms for the same problem;<br>
+- Understand simple Boolean logic and the use of logic gates  in circuits;<br>
+- Understand why and how numbers can be represented in binary, and be able to carry out simple binary addition, binary to decimal conversion;<br>
+- Understand how text, images and sound can be represented in a computer system;<br>
+- Understand the hardware and software components that make up computer systems, and how they communicate with one another and with other systems;<br>
+- Understand how instructions are stored and executed within a computer system (the stored program concept);<br>
 - Undertake creative projects that involve designing, developing,  testing and evaluating solutions, to meet the needs of known users;
 
 </td>
