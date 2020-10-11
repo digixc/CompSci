@@ -54,7 +54,8 @@ Pupils should be taught to:
 
 ## **Computer Science Key Topics:**
 
-<table> 
+<table style="border: 1px solid #CCC;
+    border-collapse: collapse;"> 
     <tr>
         <td style="border: none;">
             <ul>
