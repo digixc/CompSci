@@ -52,7 +52,7 @@ Pupils should be taught to:
 - use logical reasoning to explain how some simple algorithms work and to detect and correct errors in algorithms and programs
 - understand computer networks, including the internet; how they can provide multiple services, such as the World Wide Web, and the opportunities they offer for communication and collaboration
 
-## **Computer Science Key Topics:**
+## **Computer Science Key Stages 1-2 Key Topics:**
 
 <table style="border: 1px solid #CCC;
     border-collapse: collapse;"> 
@@ -105,24 +105,31 @@ Pupils should be taught to:
 - understand how instructions are stored and executed within a computer system; understand how data of various types (including text, sounds and pictures) can be represented and manipulated digitally, in the form of binary digits
 - undertake creative projects that involve selecting, using, and combining multiple applications, preferably across a range of devices, to achieve challenging goals, including collecting and analysing data and meeting the needs of known users
 
-    ## Key Stage 3 (Years 7-9) Key Topics
-
-    ---
-
-- Algorithms
-- Sequence
-- Selection
-- Variables
-- Data structure (list, array and table)
-- functions/subprograms
-
----
-
-- Boolean logic
-- Computational thinking
-- How computers work
-- How computers represent data
-- How computer networks work
+    ## Computer Science Key Stage 3 (Years 7-9) Key Topics
+<table style="border: 1px solid #CCC;
+    border-collapse: collapse;"> 
+    <tr>
+        <td style="border: none;">
+            <ul>
+                <li> Algorithms</li>
+                <li>Sequence</li>
+                <li>Selection</li>
+               <li> Variables</li>
+               <li> Data structure (list, array and table)</li>
+                <li> functions/subprograms</li>
+            </ul>
+        </td>
+        <td style="border: none;">
+            <ul>
+                <li> Simple AND, OR, NOT Boolean logic</li>
+                <li>Computational thinking</li>
+                <li>How computers work</li>
+                <li>How computers represent data</li>
+                <li>How computer networks work</li>
+            </ul>
+        </td>
+        </tr>
+        </table>
 
 ---
 
