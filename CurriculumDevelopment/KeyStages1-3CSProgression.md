@@ -129,7 +129,7 @@ Pupils should be taught to:
 <tr>
     <td colspan=2>
 
-- Design simple algorithms in pseudocode and flowchart for real-world problems, such as using Flowol mimics to model the state and behaviors of physical systems.
+- Design simple algorithms in pseudocode and flowchart for real-world problems, such as using Flowol mimics to model the state and behaviors of physical systems.<br>
 - Use 2 or more programming languages, at least one of which is textual, to solve a variety of computational problems;
 - Understand and make appropriate use of simple data structures, such as array, list or table;
 - Design and develop modular programs that use procedures or functions;
