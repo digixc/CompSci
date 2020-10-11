@@ -56,14 +56,14 @@ Pupils should be taught to:
 
 <table> 
     <tr>
-        <td style="border-right: none;">
+        <td style="border: none;">
             <ul>
                 <li> Algorithms</li>
                 <li>Sequence</li>
                 <li>Selection</li>
             </ul>
         </td>
-        <td style="border-left: none;">
+        <td style="border: none;">
             <ul>
                 <li> Variables</li>
                 <li>Computational thinking</li>
