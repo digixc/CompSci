@@ -52,7 +52,7 @@ Pupils should be taught to:
 - use logical reasoning to explain how some simple algorithms work and to detect and correct errors in algorithms and programs
 - understand computer networks, including the internet; how they can provide multiple services, such as the World Wide Web, and the opportunities they offer for communication and collaboration
 
-## **Computer Science Key Stages 1-2 Key Topics:**
+## **Computer Science Key Stages 1-2 (Years 1-6) Key Topics:**
 
 <table style="border: 1px solid #CCC;border-collapse: collapse;"> 
     <tr>
