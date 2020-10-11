@@ -106,8 +106,8 @@ Pupils should be taught to:
 - undertake creative projects that involve selecting, using, and combining multiple applications, preferably across a range of devices, to achieve challenging goals, including collecting and analysing data and meeting the needs of known users
 
     ## Computer Science Key Stage 3 (Years 7-9) Key Topics
-<table style="border: 1px solid #CCC;
-    border-collapse: collapse;"> 
+    
+<table style="border: 1px solid #CCC;border-collapse: collapse;"> 
     <tr>
         <td style="border: none;">
             <ul>
@@ -129,7 +129,7 @@ Pupils should be taught to:
             </ul>
         </td>
         </tr>
-<tr >
+<tr>
     <td col-span=2>
 
 - Design simple algorithms in pseudocode and flowchart for real-world problems, such as using Flowol mimics to model the state and behaviors of physical systems.
@@ -143,6 +143,7 @@ Pupils should be taught to:
 - Understand the hardware and software components that make up computer systems, and how they communicate with one another and with other systems;
 - Understand how instructions are stored and executed within a computer system (the stored program concept);
 - Undertake creative projects that involve designing, developing,  testing and evaluating solutions, to meet the needs of known users;
+
 </td>
 </tr>
 
