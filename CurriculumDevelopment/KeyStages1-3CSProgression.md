@@ -54,8 +54,7 @@ Pupils should be taught to:
 
 ## **Computer Science Key Stages 1-2 Key Topics:**
 
-<table style="border: 1px solid #CCC;
-    border-collapse: collapse;"> 
+<table style="border: 1px solid #CCC;border-collapse: collapse;"> 
     <tr>
         <td style="border: none;">
             <ul>
@@ -89,9 +88,7 @@ Pupils should be taught to:
                 </ul>
             </td>
     </tr>
-   </table>         
-
----
+</table>         
 
 ## Key Stage 3 (Years 7-9)
 
@@ -145,6 +142,4 @@ Pupils should be taught to:
 - Undertake creative projects that involve designing, developing,  testing and evaluating solutions, to meet the needs of known users;
 
 </td>
-</tr>
-
-        </table>
+</tr></table>
