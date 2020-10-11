@@ -69,31 +69,42 @@ Pupils should be taught to:
 + Text-based programming can be introduced to year 6 students;
 + Python turtle is  a good start with at Key stage 2 or early key stage 3.  
 + Computational thinking is  developed further through concepts such as decomposition. This can be done with unplugged activities and computer based activities   Concept of network should be introduced with relevant context that are familiar to students, such as WWW, the Internet, home network and cellular network connections.  Students also should be able to create simple web pages with links and images |
-**Key stage 1 and 2**
 
-- Algorithms
-- Sequence
-- Selection
-
----
-
-**Key Stage 1 and 2**
-
-- Visual programming languages that involve snapping blocks together, rather than keying in text, for example Scratch, Blockley.
-- Unplugged tasks, where concepts are taught away from the computer, using techniques such as role play, simple non-computer based robotics controls.
-- Implicit developing computational thinking via simple problem solving practices
-
-- Variables
-- Computational thinking
-- How computer networks work
-
----
-
-**Key Stage 2**
-
-- Text-based programming can be introduced to year 6 students; Python turtle is  a good start with at Key stage 2 or early key stage 3.
-- Computational thinking is  developed further through concepts such as decomposition. This can be done with unplugged activities and computer based activities
-- Concept of network should be introduced with relevant context that are familiar to students, such as WWW, the Internet, home network and cellular network connections.  Students also should be able to create simple web pages with links and images
+<table>
+    
+    <tr>
+        <td>
+            <ul>
+                <li> Algorithms</li>
+                <li>Sequence</li>
+                <li>Selection</li>
+            </ul>
+        </td>
+        <td>
+            <ul>
+                <li> Variables</li>
+                <li>Computational thinking</li>
+                <li>How computer networks work</li>
+            </ul>
+        </td>
+        </tr>
+        <tr><th>Key stage 1 and 2</th><th>Key Stage 2</th></tr>
+        <tr>
+            <td>
+                <ul>
+                    <li> Visual programming languages that involve snapping blocks together, rather than keying in text, for example Scratch, Blockley.</li>
+                    <li>Unplugged tasks, where concepts are taught away from the computer, using techniques such as role play, simple non-computer based robotics controls.</li>
+                    <li>Implicit developing computational thinking via simple problem solving practices</li>
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li>  Text-based programming can be introduced to year 6 students; Python turtle is  a good start with at Key stage 2 or early key stage 3..</li>
+                    <li>Computational thinking is  developed further through concepts such as decomposition. This can be done with unplugged activities and computer based activities.</li>
+                    <li>Concept of network should be introduced with relevant context that are familiar to students, such as WWW, the Internet, home network and cellular network connections.  Students also should be able to create simple web pages with links and images</li>
+                </ul>
+            </td>
+   </table>         
 
 ---
 
