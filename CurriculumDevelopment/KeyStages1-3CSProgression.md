@@ -102,7 +102,7 @@ Pupils should be taught to:
 - understand how instructions are stored and executed within a computer system; understand how data of various types (including text, sounds and pictures) can be represented and manipulated digitally, in the form of binary digits
 - undertake creative projects that involve selecting, using, and combining multiple applications, preferably across a range of devices, to achieve challenging goals, including collecting and analysing data and meeting the needs of known users
 
-    ## Computer Science Key Stage 3 (Years 7-9) Key Topics
+## Computer Science Key Stage 3 (Years 7-9) Key Topics
     
 <table style="border: 1px solid #CCC;border-collapse: collapse;"> 
     <tr>
