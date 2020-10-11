@@ -129,9 +129,8 @@ Pupils should be taught to:
             </ul>
         </td>
         </tr>
-        </table>
-
----
+<tr col-span=2>
+    <td>
 
 - Design simple algorithms in pseudocode and flowchart for real-world problems, such as using Flowol mimics to model the state and behaviors of physical systems.
 - Use 2 or more programming languages, at least one of which is textual, to solve a variety of computational problems;
@@ -144,3 +143,7 @@ Pupils should be taught to:
 - Understand the hardware and software components that make up computer systems, and how they communicate with one another and with other systems;
 - Understand how instructions are stored and executed within a computer system (the stored program concept);
 - Undertake creative projects that involve designing, developing,  testing and evaluating solutions, to meet the needs of known users;
+</td>
+</tr>
+
+        </table>
