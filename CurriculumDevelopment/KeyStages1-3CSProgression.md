@@ -58,14 +58,15 @@ Pupils should be taught to:
     <tr>
         <td style="border: none;">
             <ul>
-                <li> Algorithms</li>
+                <li>Algorithms</li>
                 <li>Sequence</li>
                 <li>Selection</li>
             </ul>
         </td>
         <td style="border: none;">
             <ul>
-                <li> Variables</li>
+                <li>Variables</li>
+                <li>Input and output</li>
                 <li>Computational thinking</li>
                 <li>How computer networks work</li>
             </ul>
@@ -75,16 +76,17 @@ Pupils should be taught to:
         <tr>
             <td>
                 <ul>
-                    <li> Visual programming languages that involve snapping blocks together, rather than keying in text, for example Scratch, Blockley.</li>
+                    <li>Visual programming languages that involve snapping blocks together, rather than keying in text, for example Scratch, Blockley.</li>
                     <li>Unplugged tasks, where concepts are taught away from the computer, using techniques such as role play, simple non-computer based robotics controls.</li>
                     <li>Implicit developing computational thinking via simple problem solving practices</li>
                 </ul>
             </td>
             <td>
                 <ul>
-                    <li>  Text-based programming can be introduced to year 6 students; Python turtle is  a good start with at Key stage 2 or early key stage 3..</li>
-                    <li>Computational thinking is  developed further through concepts such as decomposition. This can be done with unplugged activities and computer based activities.</li>
-                    <li>Concept of network should be introduced with relevant context that are familiar to students, such as WWW, the Internet, home network and cellular network connections.  Students also should be able to create simple web pages with links and images</li>
+                    <li>  Text-based programming can be introduced to year 6 students; Python turtle is a good start during later phase of Key stage 2 or early key stage 3. </li>
+                    <li>Computational thinking is developed further through concepts such as decomposition. This can be done with unplugged activities and computer based activities such as using Python turtle to draw certain geometric shapes or to follow a path to reach a destination.</li>
+                    <li>Input and output concepts are introduced in the context of interaction with computer programs, such as Python's input and print command, Hardware aspects can also be introduced in context</li>
+                    <li>Concept of network should be introduced with relevant context that are familiar to students, such as WWW, the Internet, home network and cellular network connections.  Students also should be able to create simple web pages with links and images.</li>
                 </ul>
             </td>
     </tr>
@@ -130,15 +132,15 @@ Pupils should be taught to:
     <td colspan=2>
 
 - Design simple algorithms in pseudocode and flowchart for real-world problems, such as using Flowol mimics to model the state and behaviors of physical systems.<br>
-- Use 2 or more programming languages, at least one of which is textual, to solve a variety of computational problems;<br>
+- Use 2 or more programming languages, at least one of which is textual, in additon to Scratch, Blockley like visual languages,  to solve a variety of computational problems, from simple maths operations, password checking, to use data structures for more complex problems, such as using random number for simple games and data analysis<br>
 - Understand and make appropriate use of simple data structures, such as array, list or table;<br>
-- Design and develop modular programs that use procedures or functions;<br>
+- Design and develop modular programs that use procedures or functions; Understand why subprograms are used;<br>
 - Textual programming languages should be predominantly used to develop several key algorithms such as linear search and bubble sort.  Students should be taught and encouraged to apply logical reasoning to compare alternative algorithms for the same problem;<br>
-- Understand simple Boolean logic and the use of logic gates  in circuits;<br>
+- Understand simple Boolean logic and the use of logic gates in circuits; This can be taught using logic gates similators and in conjunction with binary numbers;<br>
 - Understand why and how numbers can be represented in binary, and be able to carry out simple binary addition, binary to decimal conversion;<br>
 - Understand how text, images and sound can be represented in a computer system;<br>
 - Understand the hardware and software components that make up computer systems, and how they communicate with one another and with other systems;<br>
-- Understand how instructions are stored and executed within a computer system (the stored program concept);<br>
+- Understand how instructions are stored and executed within a computer system (the stored program concept, but not in details);<br>
 - Undertake creative projects that involve designing, developing,  testing and evaluating solutions, to meet the needs of known users;
 
 </td>
