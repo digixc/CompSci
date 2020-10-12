@@ -78,7 +78,7 @@ Pupils should be taught to:
             </td>
             <td>
                 <ul>
-                    <li>  Text-based programming can be introduced to year 6 students; Python turtle is a good start during later phase of Key stage 2 or early key stage 3. </li>
+                    <li>  Text-based programming can be introduced to year 6 students; Python turtle is a good start during later phase of Key stage 2 or early key stage 3 with benefits of graphical outputs from programming code. </li>
                     <li>Computational thinking is developed further through concepts such as decomposition. This can be done with unplugged activities and computer based activities such as using Python turtle to draw certain geometric shapes or to follow a path to reach a destination.</li>
                     <li>Input and output concepts are introduced in the context of interaction with computer programs, such as Python's input and print command, Hardware aspects can also be introduced in context</li>
                     <li>Concept of network should be introduced with relevant context that are familiar to students, such as WWW, the Internet, home network and cellular network connections.  Students also should be able to create simple web pages with links and images.</li>
