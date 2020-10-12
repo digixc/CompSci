@@ -12,19 +12,14 @@ Making learning Computer Science relevant, challenging and fun by building solid
 
 Making learning and learning outcomes visible to students:
 
-1. The learning process ;
-2. The language of learning used in classrooms;
-3. Learning intentions and learning outcomes with clear differentiations ;
-4. Self Assessment of the learning process with differentiated student self assessment rubrics;
-5. Interventions (Thinking interventions and e-learning interventions) that enhance the conditions of value when learning via differentiated interventions.
-
-Learning to learn:
-
-Encouraging learners to think about the strengths and weaknesses of their own thinking when they are learning and to make thoughtful decisions on what to do next. Students of all ages should be encouraged answer the following questions:
-
-1. What am I learning?
-2. How is it going?
-3. What do I do next?
+1. The learning process is well defined, engaging, and relevant to students;
+2. The language of learning used in classrooms is stimulating, encouraging independent thinking and technically correct and up-to-date;
+3. The Learning intentions and learning outcomes are well defined, logical and  appropriate with clear differentiations ;
+4. Learning of theory knowledge will be combined with practical skill development whenever possible;
+5. Self Assessment of the learning process with differentiated student self assessment rubrics;
+    1. What am I learning?
+    2. How is it going?
+    3. What do I do next?
 
 ---
 
