@@ -23,9 +23,9 @@ Making learning and learning outcomes visible to students:
 
 ---
 
-# **Aims**
+## **Broad Aims of Computer Science**
 
-The UK national curriculum for computing aims to ensure that all pupils:
+To ensure that all pupils:
 
 - can understand and apply the fundamental principles and concepts of computer science, including abstraction, logic, algorithms and data representation
 - can analyse problems in computational terms, and have repeated practical experience of writing computer programs in order to solve such problems
