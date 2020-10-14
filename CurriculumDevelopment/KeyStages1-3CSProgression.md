@@ -105,12 +105,12 @@ Pupils should be taught to:
     <tr>
         <td style="border: none;">
             <ul>
-                <li> Algorithms</li>
+                <li>Algorithms</li>
                 <li>Sequence</li>
                 <li>Selection</li>
                <li> Variables</li>
                <li> Data structure (list, array and table)</li>
-                <li> functions/subprograms</li>
+                <li>Functions/subprograms</li>
             </ul>
         </td>
         <td style="border: none;">
@@ -120,6 +120,7 @@ Pupils should be taught to:
                 <li>How computers work</li>
                 <li>How computers represent data</li>
                 <li>How computer networks work</li>
+                <li>Current Technologies: IoT, AI and Machine Learning</li>
             </ul>
         </td>
         </tr>
