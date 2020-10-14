@@ -1,9 +1,5 @@
 # Key Stages 1-3 CS Progression
 
-Date Created: Oct 7, 2020 12:00 PM
-Last Edited By: xiaohui cai
-Last Updated: Oct 11, 2020 4:32 PM
-
 ## Philosophy
 
 Making learning Computer Science relevant, challenging and fun by building solid foundations at each age group that will enable students to progress seamlessly to KS4. 
