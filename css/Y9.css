@@ -203,6 +203,10 @@ html, body {
     position:relative
 }
 
+#page #work .y9-box #background a {
+    text-decoration: none;
+}
+
 #page #work .y9-box ul {
     width: calc(100%);
     height: 100%;
