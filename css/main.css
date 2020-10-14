@@ -132,14 +132,12 @@ html, body {
     margin-bottom:20px
 }
 
-#page #work .y9-box {
-    border: solid 1px rgba(55, 173, 164, .7);
-    background-color: gray;
-    border-radius: 5px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    overflow: hidden;
-    margin-bottom:20px
+#page #work .y9-box #background header {
+    color: #fff;
+    background-color: rgba(55, 173, 164, .7);
+    background-size: cover;
+    padding: 20px 15px;
+    position:relative
 }
 
 
