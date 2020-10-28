@@ -31,8 +31,12 @@
     background-color: #f6f6f6;
   }
   .logo-small {
-    color: #f4511e;
+    color: #ff6e1a;
     font-size: 50px;
+  }
+ .logo-medium {
+    color: #ff6e1a;
+    font-size: 100px;
   }
   .logo {
     color: #ff6e1a;
