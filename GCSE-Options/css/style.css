@@ -19,7 +19,7 @@
     margin-bottom: 30px;
   }  
   .jumbotron {
-    background-color: #f4511e;
+    background-color: #ff6e1a;;
     color: #fff;
     padding: 100px 25px;
     font-family: Montserrat, sans-serif;
@@ -35,7 +35,7 @@
     font-size: 50px;
   }
   .logo {
-    color: #f4511e;
+    color: #ff6e1a;;
     font-size: 200px;
   }
   .thumbnail {
@@ -50,13 +50,13 @@
   }
   .carousel-control.right, .carousel-control.left {
     background-image: none;
-    color: #f4511e;
+    color: #ff6e1a;;
   }
   .carousel-indicators li {
-    border-color: #f4511e;
+    border-color: #ff6e1a;;
   }
   .carousel-indicators li.active {
-    background-color: #f4511e;
+    background-color: #ff6e1a;;
   }
   .item h4 {
     font-size: 19px;
@@ -69,7 +69,7 @@
     font-style: normal;
   }
   .panel {
-    border: 1px solid #f4511e; 
+    border: 1px solid #ff6e1a;; 
     border-radius:0 !important;
     transition: box-shadow 0.5s;
   }
@@ -77,13 +77,13 @@
     box-shadow: 5px 0px 40px rgba(0,0,0, .2);
   }
   .panel-footer .btn:hover {
-    border: 1px solid #f4511e;
+    border: 1px solid #ff6e1a;;
     background-color: #fff !important;
     color: #f4511e;
   }
   .panel-heading {
     color: #fff !important;
-    background-color: #f4511e !important;
+    background-color: #ff6e1a; !important;
     padding: 25px;
     border-bottom: 1px solid transparent;
     border-top-left-radius: 0px;
