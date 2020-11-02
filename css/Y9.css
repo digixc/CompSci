@@ -122,8 +122,8 @@ html, body {
     display:table
 }
 
-#page #work .box {
-    border: solid 1px rgba(55, 173, 164, .7);
+#page #work .y9-box {
+    border: solid 1px rgba(255, 139, 0, .7);
     background-color: gray;
     border-radius: 5px;
     -moz-border-radius: 5px;
@@ -134,49 +134,49 @@ html, body {
 
 
 @media screen and (min-width: 1001px) {
-    #page #work .box {
+    #page #work .y9-box {
         float: left;
         display: block;
         margin-right: 2.35765%;
         width:31.76157%
     }
 
-    #page #work .box:last-child {
+    #page #work .y9-box:last-child {
         margin-right:0
     }
 
-    #page #work .box:nth-child(3n) {
+    #page #work .y9-box:nth-child(3n) {
         margin-right:0
     }
 
-    #page #work .box:nth-child(3n + 1) {
+    #page #work .y9-box:nth-child(3n + 1) {
         clear:left
     }
 }
 
 @media screen and (max-width: 1000px) {
-    #page #work .box {
+    #page #work .y9-box {
         float: left;
         display: block;
         margin-right: 2.35765%;
         width:48.82117%
     }
 
-    #page #work .box:last-child {
+    #page #work .y9-box:last-child {
         margin-right:0
     }
 
-    #page #work .box:nth-child(2n) {
+    #page #work .y9-box:nth-child(2n) {
         margin-right:0
     }
 
-    #page #work .box:nth-child(2n + 1) {
+    #page #work .y9-box:nth-child(2n + 1) {
         clear:left
     }
 }
 
 @media screen and (max-width: 500px) {
-    #page #work .box {
+    #page #work .y9-box {
         float: left;
         display: block;
         margin-right: 2.35765%;
@@ -184,41 +184,45 @@ html, body {
         margin-right:0
     }
 
-    #page #work .box:last-child {
+    #page #work .y9-box:last-child {
         margin-right:0
     }
 }
 
-#page #work .box #background {
+#page #work .y9-box #background {
     background-size: cover;
     background-position: center center;
     width:100%
 }
 
-#page #work .box #background header {
+#page #work .y9-box #background header {
     color: #fff;
-    background-color: rgba(55, 173, 164, .7);
+    background-color: rgba(255, 139, 0, .7);
     background-size: cover;
     padding: 20px 15px;
     position:relative
 }
 
-#page #work .box ul {
+#page #work .y9-box #background a {
+    text-decoration: none;
+}
+
+#page #work .y9-box ul {
     width: calc(100%);
     height: 100%;
     background-color: #fff;
     padding:15px
 }
 
-#page #work .box ul li {
+#page #work .y9-box ul li {
     margin-left:20px
 }
 
-#page #work .box ul li a {
+#page #work .y9-box ul li a {
     color:#000
 }
 
-#page #work .box ul li a:hover {
+#page #work .y9-box ul li a:hover {
     opacity: .7
 }
 
