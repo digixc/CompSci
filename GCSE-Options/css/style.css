@@ -23,6 +23,10 @@
     color: #fff;
     padding: 100px 25px;
     font-family: Montserrat, sans-serif;
+    background-image: url(../img/Creative.png);
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position:right
   }
   .container-fluid {
     padding: 60px 50px;
