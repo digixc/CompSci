@@ -1,0 +1,37 @@
+body {
+  background: #555;
+}
+
+.content {
+  max-width: 500px;
+  margin: auto;
+  background: white;
+  padding: 10px;
+}
+
+table {
+          border-collapse: collapse;
+        }
+
+        .col-sm-6 {
+          margin: auto;
+          padding: 2%;
+        }
+
+        td, th {
+          border: 1px solid black;
+          padding: 0.5rem;
+          /*text-align: left;*/
+        }
+
+        td.long {
+          width: 60%;
+        }
+
+        th {
+          text-align: center;
+        }
+
+        img {
+          height: 20%;
+        }
