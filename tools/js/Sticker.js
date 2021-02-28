@@ -8,8 +8,10 @@ var Features = ["Organisation", 'Ideas', 'Voice', 'Sentence Fluency', 'Word Choi
         var x = document.getElementById("form1");
         var date = x.elements[0].value;
         var Objective = x.elements[1].value;
+        Objective= Objective.replace(/\n/g,"<br>").replace(/\r/g,"<br>");
 
-        var table = '<table style="border-collapse: collapse;">';
+
+        var table = '<table style="border-collapse: collapse; background-color: white;">';
 
         table +='<tr><td style="border: 1px solid black;padding: 0.5rem;text-align: left;" colspan="1"> Date:' + date + '</td><td colspan=3 style="border: 1px solid black;padding: 0.5rem;text-align: left;">Learning Objective:<br> '+ Objective + '</td></tr>';
 
@@ -21,7 +23,7 @@ var Features = ["Organisation", 'Ideas', 'Voice', 'Sentence Fluency', 'Word Choi
   for (var i = 2; i < 8; i++) {
 
     table += "<tr><td  style='border: 1px solid black;padding: 0.5rem;text-align: left;'>" + Features[i-2] + "<img src='"+ images[i-2] + "' style='width: 40px;'>" 
-     + "</td><td style='border: 1px solid black;padding: 0.5rem;text-align: left;'>" + x.elements[i].value
+     + "</td><td style='border: 1px solid black;padding: 0.5rem;text-align: left;'>" + x.elements[i].value.replace(/\n/g,"<br>").replace(/\r/g,"<br>")
    
      + "</td><td style='border: 1px solid black;padding: 0.5rem;text-align: left;'>" +
         
