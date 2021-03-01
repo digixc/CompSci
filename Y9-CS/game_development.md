@@ -8,7 +8,7 @@ h2 { background-color:#fc9003; padding:16px;text-align:center;}
 h3 {background-color:lightblue; padding:16px; text-align:center;}
 video {width:50%; float:left;}
 button {float: right;}
-vid {margin:auto; width: 100%;}
+#vid {margin:auto; width: 100%;}
 </style>
 <div id="vid">
 <video auto-play="true" loop="loop" muted="muted" controls>
