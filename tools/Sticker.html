@@ -37,6 +37,7 @@
 
         td.long {
           width: 60%;
+          font-size: 1em;
         }
 
         th {
@@ -45,6 +46,12 @@
 
         img {
           width: 40px;
+          float: right;
+        }
+
+        td.feature {
+          font-weight: bold;
+          font-size: 1em;
         }
 
     </style>
@@ -63,37 +70,37 @@
     <div class="col-sm-6" style="background-color:#AED9CD;"><div class="fillForm">
     <form id="form1">
       <table>
-      <tr><td colspan="1"> Date: <input type="date" name="date" id="datepicker" onchange="updateSticker()"></td><td colspan=3>Learning Objective: <br><textarea class="form-control" rows="2" name="Objective" onchange="updateSticker()"></textarea></td></tr>
+      <tr><td colspan="1" class="feature"> Date: <input type="date" name="date" id="datepicker" onchange="updateSticker()"></td><td colspan=3 class="feature">Learning Objective: <br><textarea class="form-control" rows="2" name="Objective" onchange="updateSticker()"></textarea></td></tr>
 
-      <tr><td rowspan="2">Features</td><td rowspan="2" class="long">Success Criteria</td><td colspan="2">Self/Peer Assessment</td></tr>
+      <tr><td rowspan="2" class="feature">Features</td><td rowspan="2" class="long" style="font-weight: bold; text-align: center;">Success Criteria</td><td colspan="2"  class="feature">Self/Peer Assessment</td></tr>
       <tr><td><img src="img/YES.png" style="width: 25px;"></td><td><img src="img/NO.png" style="width: 25px;"></td></tr>
      <tr> 
-        <td>Organisation<img src="img/pencil.png"></td>
+        <td class="feature">Organisation<img src="img/pencil.png"></td>
         <td><textarea class="form-control" rows="2" name="organisation" onchange="updateSticker()"></textarea></td>
         <td></td><td></td>
       </tr>
      <tr> 
-        <td>Ideas<img src="img/idea.png"></td>
+        <td class="feature">Ideas<img src="img/idea.png"></td>
         <td><textarea class="form-control" rows="2" type="textfield" name="ideas" onchange="updateSticker()"></textarea></td>
         <td></td><td></td>
       </tr>
      <tr> 
-        <td>Voice<img src="img/ruler.png"></td>
+        <td class="feature">Voice<img src="img/ruler.png"></td>
         <td><textarea class="form-control" rows="2" name="voice" onchange="updateSticker()"></textarea></td>
         <td></td><td></td>
       </tr>
        <tr> 
-        <td>Sentence Fluency<img src="img/note.png"></td>
+        <td class="feature">Sentence Fluency<img src="img/note.png"></td>
         <td><textarea class="form-control" rows="2" name="fluency" onchange="updateSticker()"></textarea></td>
         <td></td><td></td>
       </tr>
        <tr> 
-        <td>Word Choice<img src="img/pencil.png"></td>
+        <td class="feature">Word Choice<img src="img/pencil.png"></td>
         <td><textarea class="form-control" rows="2" name="wordchoice" onchange="updateSticker()"></textarea></td>
         <td></td><td></td>
       </tr>
        <tr> 
-        <td>Conventions<img src="img/idea.png"></td>
+        <td class="feature">Conventions<img src="img/idea.png"></td>
         <td><textarea class="form-control" rows="2" name="conventions" onchange="updateSticker()"></textarea></td>
         <td></td><td></td>
       </tr>

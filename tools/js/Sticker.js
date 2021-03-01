@@ -13,16 +13,16 @@ var Features = ["Organisation", 'Ideas', 'Voice', 'Sentence Fluency', 'Word Choi
 
         var table = '<table style="border-collapse: collapse; background-color: white;">';
 
-        table +='<tr><td style="border: 1px solid black;padding: 0.5rem;text-align: left;" colspan="1"> Date:' + date + '</td><td colspan=3 style="border: 1px solid black;padding: 0.5rem;text-align: left;">Learning Objective:<br> '+ Objective + '</td></tr>';
+        table +='<tr><td style="border: 1px solid black;padding: 0.5rem;text-align: left;font-weight: bold;" colspan="1"> Date: ' + date + '</td><td colspan=3 style="border: 1px solid black;padding: 0.5rem;text-align: left; font-weight: bold;">Learning Objective:<br> '+ Objective + '</td></tr>';
 
-        table += '<tr><td style="border: 1px solid black;padding: 0.5rem;text-align: center;" rowspan="2">Features</td><td style="border: 1px solid black;padding: 0.5rem;text-align: center;" rowspan="2" class="long">Success Criteria</td><td style="border: 1px solid black;padding: 0.5rem;text-align: center;" colspan="2">Self/Peer Assessment</td></tr>';
+        table += '<tr><td style="border: 1px solid black;padding: 0.5rem;text-align: center; font-weight: bold;" rowspan="2">Features</td><td style="border: 1px solid black;padding: 0.5rem;text-align: center;font-weight: bold;" rowspan="2" class="long" >Success Criteria</td><td style="border: 1px solid black;padding: 0.5rem;text-align: center;font-weight: bold;" colspan="2" >Self/Peer Assessment</td></tr>';
 
         table += '<tr><td style="border: 1px solid black;padding: 0.5rem;text-align: center;"><img src="img/YES.png" style="width: 25px;"></td><td style="border: 1px solid black;padding: 0.5rem;text-align: center;"><img src="img/NO.png" style="width: 25px;"></td></tr>';
          
            
   for (var i = 2; i < 8; i++) {
 
-    table += "<tr><td  style='border: 1px solid black;padding: 0.5rem;text-align: left;'>" + Features[i-2] + "<img src='"+ images[i-2] + "' style='width: 40px;'>" 
+    table += "<tr><td  style='border: 1px solid black;padding: 0.5rem;text-align: left;font-weight: bold;'>" + Features[i-2] + "<img src='"+ images[i-2] + "' style='width: 40px;'>" 
      + "</td><td style='border: 1px solid black;padding: 0.5rem;text-align: left;'>" + x.elements[i].value.replace(/\n/g,"<br>").replace(/\r/g,"<br>")
    
      + "</td><td style='border: 1px solid black;padding: 0.5rem;text-align: left;'>" +
@@ -42,7 +42,7 @@ var Features = ["Organisation", 'Ideas', 'Voice', 'Sentence Fluency', 'Word Choi
       function printPDF() {
           var divContents = $("#dvContainer").html();
           var printWindow = window.open('', '', 'height=400,width=800');
-          printWindow.document.write('<html><head><link rel="stylesheet" href="css/myStyle.css"></head><title>DIV Contents</title>');
+          printWindow.document.write('<html><head><link rel="stylesheet" href="css/printSticker.css"></head><title>DIV Contents</title>');
           printWindow.document.write('</head><body><div class="content">');
           printWindow.document.write(divContents);
           printWindow.document.write('</div></body></html>');
