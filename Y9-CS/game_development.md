@@ -1,5 +1,7 @@
 <link href="css/style.css" rel="stylesheet"></link>
+
 ## Game Development 
+
 ### Objective:
 + Develop understanding of components of game development using programming language
 + Develop programming skills to implement working solutions/games
