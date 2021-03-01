@@ -16,7 +16,7 @@ button {float: right;}
 
 ## Year 9 Computer Science Unit: Game Development 
 
-| Objective:
+| Objectives:
 
 + Develop understanding of components of game development using programming language
 + Develop programming skills to implement working solutions/games
