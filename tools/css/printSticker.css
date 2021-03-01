@@ -25,7 +25,7 @@ body {
         }
 
         td.long {
-          width: 60%;
+          width: 400px;
           font-size: 1.5em;
         }
 
@@ -34,12 +34,12 @@ body {
         }
 
         img {
-          height: 20%;
+          height: 40px;
           float: right;
         }
 
         td.feature {
           font-weight: bold;
-          min-width: 200px;
+          width: 200px;
           font-size: 1.5em;
         }
