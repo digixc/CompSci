@@ -8,6 +8,9 @@ h2 { background-color:#fc9003; padding:16px;text-align:center;}
 h3 {background-color:lightblue; padding:16px; text-align:center;}
 </style>
 
+<video auto-play="true" loop="loop" muted="muted" plays-inline="true">
+  <source src="./img/xmas_pygame.mp4" type="video/mp4">
+</video>
 ## Year 9 Computer Science Unit: Game Development 
 
 | Objective:
