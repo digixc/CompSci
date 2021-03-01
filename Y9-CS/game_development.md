@@ -1,5 +1,6 @@
 <title>Year 9 CS</title>
 <style type='text/css'>
+body {width: 80%; margin:auto;}
 a { text-decoration: none; }
 a:hover { text-decoration: underline; }
 h1 {display: none; }
