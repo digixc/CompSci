@@ -6,7 +6,7 @@ a:hover { text-decoration: underline; }
 h1 {display: none; }
 h2 { background-color:#fc9003; padding:16px;text-align:center;}
 h3 {background-color:lightblue; padding:16px; text-align:center;}
-video {width:50%; margin:auto;}
+video {width:50%; text-align:center;}
 </style>
 
 <video auto-play="true" loop="loop" muted="muted" controls>
