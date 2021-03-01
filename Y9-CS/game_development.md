@@ -1,4 +1,4 @@
-<link href="../css/main.css" rel="stylesheet"></link>
+(setq markdown-css-paths '("../css/main.css"))
 
 ## Game Development 
 
