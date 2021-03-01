@@ -20,6 +20,7 @@ Starting off with simple, primitive shapes and building up to more sophisticated
 You will then learn how these simpler constructs can be combined to create more complex programs. 
 In the final project, you will develop a personalized, interactive game. 
 Along the way, you will practice design, testing, and iteration, as you come to see that failure and debugging are an expected and valuable part of the programming process. 
+
 ---
 ### Lesson 1: Colours and Shapes
 #### Objectives: 
