@@ -9,11 +9,13 @@ h3 {background-color:lightblue; padding:16px; text-align:center;}
 ## Year Computer Science Unit: Game Development 
 
 | Objective:
+
 + Develop understanding of components of game development using programming language
 + Develop programming skills to implement working solutions/games
 + Develop problem solving skills in the context and process of game making
 
 | Learning outcomes:
+
 + Be able to draw at least 4 different shapes with various sizes, colours, line thickness, filled or not filled and at any given locations
 + Be able to animate shapes and detect boundaries of a game screen using variables, loops and if statements
 + Be able to use images (load, scale) as sprites or backgrounds
