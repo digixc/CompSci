@@ -8,7 +8,7 @@ h2 { background-color:#fc9003; padding:16px;text-align:center;}
 h3 {background-color:lightblue; padding:16px; text-align:center;}
 </style>
 
-<video auto-play="true" loop="loop" muted="muted" plays-inline="true">
+<video width=50% auto-play="true" loop="loop" muted="muted" controls>
   <source src="./img/xmas_pygame.mp4" type="video/mp4">
 </video>
 
