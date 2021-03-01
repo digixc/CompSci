@@ -2,6 +2,7 @@
 <style type='text/css'>
 a { text-decoration: none; }
 a:hover { text-decoration: underline; }
+h1 {display: none; }
 h2 { background-color:yellow; padding:16px;}
 h3 {background-color:lightblue; padding:16px; text-align:center;}
 </style>
