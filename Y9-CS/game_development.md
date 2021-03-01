@@ -1,9 +1,8 @@
-(setq markdown-xhtml-header-content
-      "<style type='text/css'>
+<style type='text/css'>
 a { text-decoration: none; }
 a:hover { text-decoration: underline; }
 h2 { background-color:yellow; }
-</style>")
+</style>
 
 ## Game Development 
 
