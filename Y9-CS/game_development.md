@@ -1,4 +1,4 @@
-<title>year 9 CS</title>
+<title>Year 9 CS</title>
 <style type='text/css'>
 a { text-decoration: none; }
 a:hover { text-decoration: underline; }
@@ -7,7 +7,7 @@ h2 { background-color:yellow; padding:16px;}
 h3 {background-color:lightblue; padding:16px; text-align:center;}
 </style>
 
-## Year Computer Science Unit: Game Development 
+## Year 9 Computer Science Unit: Game Development 
 
 | Objective:
 
@@ -26,7 +26,7 @@ h3 {background-color:lightblue; padding:16px; text-align:center;}
 | Learning pathway:
 
 In this unit, you will build your coding experience as you create programmatic images, animations, and interactive games.  
-Starting off with simple, primitive shapes and building up to more sophisticated sprite-based games, you will become familiar with the programming concepts and the design process computer scientists use daily.  
+Starting off with simple, primitive shapes and colours, and building up to more sophisticated sprite-based games using shapes and images, you will become familiar with the programming concepts and the design process computer scientists use daily.  
 You will then learn how these simpler constructs can be combined to create more complex programs. 
 In the final project, you will develop a personalized, interactive game. 
 Along the way, you will practice design, testing, and iteration, as you come to see that failure and debugging are an expected and valuable part of the programming process. 
