@@ -4,7 +4,7 @@ body {width: 80%; margin:auto;}
 a { text-decoration: none; }
 a:hover { text-decoration: underline; }
 h1 {display: none; }
-h2 { background-color:yellow; padding:16px;text-align:center;}
+h2 { background-color:#fc9003; padding:16px;text-align:center;}
 h3 {background-color:lightblue; padding:16px; text-align:center;}
 </style>
 
