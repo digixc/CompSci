@@ -6,12 +6,13 @@ a:hover { text-decoration: underline; }
 h1 {display: none; }
 h2 { background-color:#fc9003; padding:16px;text-align:center;}
 h3 {background-color:lightblue; padding:16px; text-align:center;}
-video {width:50%; text-align:center;}
+video {width:50%; float:left;}
+button {float: right;}
 </style>
-
+<div id="vid">
 <video auto-play="true" loop="loop" muted="muted" controls>
   <source src="./img/xmas_pygame.mp4" type="video/mp4">
-</video><button>Students Work Showcases</button>
+</video><button>Students Work Showcases</button></div>
 
 ## Year 9 Computer Science Unit: Game Development 
 
