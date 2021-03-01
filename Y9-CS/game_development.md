@@ -27,3 +27,21 @@ Along the way, you will practice design, testing, and iteration, as you come to 
 + Understand how computers represent colours using RGB colour components 
 + Understand how computers draw shapes using different properties given such as coordinates, colours and other parameters 
 + Understand how humans communicate to a computer what colours to display for text and shapes and how to draw shapes
+
+#### Outcomes: 
++ Students will be able to use RGB colour values to create different colours and assign them to variables to be used in their game program
++ Students will be able to understand and plot shapes for given locations, dimensions and other properties such as colour, fill etc
++ Students will be able to produce a complex background image by combining learnt skills to be used for their game
+
+---
+### Lesson 2: FPS, Images and Events
+#### Objectives: 
++ Understand how animation works in programming a game 
++ Understand how computers control the speed of screen refresh rate (Frame Per Second)
++ Understand what computer events are and how events are detected and used in game making
+
+#### Outcomes: 
++ Students will be able to adjust FPS to tailor their animation in their game program
++ Students will be able to load images from files and scale them to appropriate sizes for their games
++ Students will be able to use key board events to control their sprite and close their game smoothly
+
