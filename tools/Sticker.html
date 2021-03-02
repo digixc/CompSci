@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>WCIS Prep Sticker</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<!-- /* date picker jQuery */ -->
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <!--  -->
+
+  <script src="js/Sticker.js"></script>
+  <script>
+    $(function() {
+    $( "#datepicker" ).datepicker();
+  });
+  </script>
+  <style type="text/css">
+          table {
+          border-collapse: collapse;
+        }
+
+        .col-sm-6 {
+          margin: auto;
+          padding: 2%;
+        }
+
+        td, th {
+          border: 1px solid black;
+          padding: 0.5rem;
+          /*text-align: left;*/
+        }
+
+        td.long {
+          width: 60%;
+          font-size: 1em;
+        }
+
+        th {
+          text-align: center;
+        }
+
+        img {
+          width: 40px;
+          float: right;
+        }
+
+        td.feature {
+          font-weight: bold;
+          font-size: 1em;
+        }
+
+    </style>
+</head>
+<body onload="updateSticker()">
+
+<div class="container-fluid">
+  <h1>LO Sticker Generator</h1>
+  <p>Type in, then hit enter,  and you will see the sticker being generated on the right pane. 
+  Use Tab to move from input field to input field to speed up your work. 
+  When you are happy with your sticker, just click Print button to print to PDF or a printer.</p>
+   <div style="text-align: center;">
+     <div id="print"></div>
+   </div>
+  <div class="row">
+    <div class="col-sm-6" style="background-color:#AED9CD;"><div class="fillForm">
+    <form id="form1">
+      <table>
+      <tr><td colspan="1" class="feature"> Date: <input type="date" name="date" id="datepicker" onchange="updateSticker()"></td><td colspan=3 class="feature">Learning Objective: <br><textarea class="form-control" rows="2" name="Objective" onchange="updateSticker()"></textarea></td></tr>
+
+      <tr><td rowspan="2" class="feature">Features</td><td rowspan="2" class="long" style="font-weight: bold; text-align: center;">Success Criteria</td><td colspan="2"  class="feature">Self/Peer Assessment</td></tr>
+      <tr><td><img src="img/YES.png" style="width: 25px;"></td><td><img src="img/NO.png" style="width: 25px;"></td></tr>
+     <tr> 
+        <td class="feature">Organisation<img src="img/pencil.png"></td>
+        <td><textarea class="form-control" rows="2" name="organisation" onchange="updateSticker()"></textarea></td>
+        <td></td><td></td>
+      </tr>
+     <tr> 
+        <td class="feature">Ideas<img src="img/idea.png"></td>
+        <td><textarea class="form-control" rows="2" type="textfield" name="ideas" onchange="updateSticker()"></textarea></td>
+        <td></td><td></td>
+      </tr>
+     <tr> 
+        <td class="feature">Voice<img src="img/ruler.png"></td>
+        <td><textarea class="form-control" rows="2" name="voice" onchange="updateSticker()"></textarea></td>
+        <td></td><td></td>
+      </tr>
+       <tr> 
+        <td class="feature">Sentence Fluency<img src="img/note.png"></td>
+        <td><textarea class="form-control" rows="2" name="fluency" onchange="updateSticker()"></textarea></td>
+        <td></td><td></td>
+      </tr>
+       <tr> 
+        <td class="feature">Word Choice<img src="img/pencil.png"></td>
+        <td><textarea class="form-control" rows="2" name="wordchoice" onchange="updateSticker()"></textarea></td>
+        <td></td><td></td>
+      </tr>
+       <tr> 
+        <td class="feature">Conventions<img src="img/idea.png"></td>
+        <td><textarea class="form-control" rows="2" name="conventions" onchange="updateSticker()"></textarea></td>
+        <td></td><td></td>
+      </tr>
+        </table>
+
+    </form>
+  </div></div>
+    <div class="col-sm-6" style="background-color:#F1BA42;"> 
+      <div id="dvContainer">
+
+    </div>
+  </div>
+ 
+  </div>
+</div>
+
+</body>
+</html>

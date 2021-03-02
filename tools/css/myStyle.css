@@ -1,0 +1,39 @@
+body {
+  background: #555;
+}
+
+
+    table {
+          border-collapse: collapse;
+        }
+
+        .col-sm-6 {
+          margin: auto;
+          padding: 2%;
+        }
+
+        td, th {
+          border: 1px solid black;
+          padding: 0.5rem;
+          /*text-align: left;*/
+        }
+
+        td.long {
+          width: 60%;
+          font-size: 1.5em;
+        }
+
+        th {
+          text-align: center;
+        }
+
+        img {
+          height: 20%;
+          float: right;
+        }
+
+        td.feature {
+          font-weight: bold;
+          min-width: 200px;
+          font-size: 1.5em;
+        }

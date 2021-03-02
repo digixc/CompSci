@@ -1,0 +1,45 @@
+body {
+  background: #555;
+}
+
+.content {
+  max-width: 800px;
+  margin: auto;
+  background: white;
+  padding: 10px;
+}
+
+    table {
+          border-collapse: collapse;
+        }
+
+        .col-sm-6 {
+          margin: auto;
+          padding: 2%;  
+        }
+
+        td, th {
+          border: 1px solid black;
+          padding: 0.5rem;
+          /*text-align: left;*/
+        }
+
+        td.long {
+          width: 400px;
+          font-size: 1.5em;
+        }
+
+        th {
+          text-align: center;
+        }
+
+        img {
+          height: 40px;
+          float: right;
+        }
+
+        td.feature {
+          font-weight: bold;
+          width: 200px;
+          font-size: 1.5em;
+        }
