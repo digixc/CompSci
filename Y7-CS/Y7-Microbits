@@ -26,8 +26,4 @@ button {float: right;margin-bottom: 20px; background-color: lightblue; border-ra
 + understand computer systems and create programs for the BBC micro:bit 
 + create a video explaining their learning about computer systems and programming concepts 
 | Learning pathway:
-In this unit, you will build your coding experience as you create programmatic images, animations, and interactive games.  
-Starting off with simple, primitive shapes and colours, and building up to more sophisticated sprite-based games using shapes and images, you will become familiar with the programming concepts and the design process computer scientists use daily.  
-You will then learn how these simpler constructs can be combined to create more complex programs. 
-In the final project, you will develop a personalized, interactive game. 
-Along the way, you will practice design, testing, and iteration, as you come to see that failure and debugging are an expected and valuable part of the programming process. 
+In progress
