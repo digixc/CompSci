@@ -7,7 +7,7 @@ h1 {display: none; }
 h2 { background-color:#fc9003; padding:16px;text-align:center;}
 h3 {background-color:lightblue; padding:16px; text-align:center;}
 button {float: right;margin-bottom: 20px; background-color: lightblue; border-radius:3px; }
-  video {margin-bottom:20px; width:20px}
+  video {margin-bottom:20px; width:50%}
 </style>
 
 <video auto-play="true" loop="loop" muted="muted" controls>
