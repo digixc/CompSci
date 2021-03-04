@@ -31,4 +31,4 @@ video {margin-bottom:20px; text-align:center;}
 
 | Learning pathway:
 
-Student's begin the academic year off by learning fundamental computing concepts that are intrinsic in computer Science. These concepts underpin this subject not just within school, but also the workplace. The students will develop algorithmic thinking through unplugged activities such as designing pseudocode for a paper aeroplane, before they experiment with coding the BBC Micro: Bit. They will use this knowledge to develop programs that can be implemented on the external microbit device.
+<p>Student's begin the academic year off by learning fundamental computing concepts that are intrinsic in computer Science. These concepts underpin this subject not just within school, but also the workplace. The students will develop algorithmic thinking through unplugged activities such as designing pseudocode for a paper aeroplane, before they experiment with coding the BBC Micro: Bit. They will use this knowledge to develop programs that can be implemented on the external microbit device.</p>
