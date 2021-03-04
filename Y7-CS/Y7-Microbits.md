@@ -6,7 +6,7 @@ a:hover { text-decoration: underline; }
 h1 {display: none; }
 h2 {background-color:#fc9003; padding:16px;text-align:center;}
 h3 {background-color:lightblue; padding:16px; text-align:center;}
-video {width:50%; float:right;} 
+video {width:30%; float:right;} 
 button {float: right;margin-bottom: 20px; background-color: lightblue; border-radius:3px; }
 video {margin-bottom:20px; text-align:center}
 </style>
