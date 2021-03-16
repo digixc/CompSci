@@ -9,13 +9,14 @@ h3 {background-color:lightblue; padding:16px; text-align:center;}
 video {width:30%; float:left;}
 button {float: right;margin-bottom: 20px; background-color: lightblue; border-radius:3px; }
 video {margin-bottom:20px; width: 40%;text-align:center;}
+img.logo {width:100px;}
+#logos {wdith:100%; margin:auto; text-align:center;}
 </style>
 
-<table>
-  <tr>
-    <td style='text-align:center;'><img src='img/tinkercad-logo.png'></td>
-  </tr>
-  </table>
+<div id="logos">
+    <img class='logo' src='img/tinkercad-logo.png'>
+</div>
+
 ## Year 4 Computing Unit: Design 
 
 | Objectives:
