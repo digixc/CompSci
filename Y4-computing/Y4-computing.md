@@ -13,7 +13,7 @@ video {margin-bottom:20px; width: 40%;text-align:center;}
 
 <table>
   <tr>
-    <td style='text-align:center;'><img src='img/tiknercad-logo.png'></td>
+    <td style='text-align:center;'><img src='img/tinkercad-logo.png'></td>
   </tr>
   </table>
 ## Year 4 Computing Unit: Design 
