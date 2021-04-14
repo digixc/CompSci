@@ -1,5 +1,5 @@
 var Features = ["Organisation", 'Ideas', 'Voice', 'Sentence Fluency', 'Word Choice', 'Conventions'];
-      var images = ["img/pencil.png", "img/idea.png", "img/ruler.png", "img/note.png","img/pencil.png","img/idea.png"];
+      var images = ["img/org-1.png", "img/idea-1.png", "img/voice-1.png", "img/fluency-1.png","img/wordchoice-1.png","img/convention-1.png"];
 
         // $("#btnPrint").live("click", function () 
 
