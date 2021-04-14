@@ -4,6 +4,7 @@ body {
 
 .content {
   max-width: 800px;
+  max-height: 800px;
   margin: auto;
   background: white;
   padding: 10px;
@@ -26,7 +27,7 @@ body {
 
         td.long {
           width: 400px;
-          font-size: 1.5em;
+          font-size: 1em;
         }
 
         th {
@@ -34,7 +35,7 @@ body {
         }
 
         img {
-          height: 40px;
+          height: 20px;
           float: right;
         }
 
