@@ -40,7 +40,7 @@ In the final project, you will develop a personalized, interactive game.
 Along the way, you will practice design, testing, and iteration, as you come to see that failure and debugging are an expected and valuable part of the programming process. 
 
 ---
-### Lesson 1: Colours and Shapes
+### Topic 1: Colours and Shapes
 #### Objectives: 
 + Understand how computers represent colours using RGB colour components 
 + Understand how computers draw shapes using different properties given such as coordinates, colours and other parameters 
@@ -52,7 +52,7 @@ Along the way, you will practice design, testing, and iteration, as you come to 
 + Students will be able to produce a complex background image by combining learnt skills to be used for their game
 
 ---
-### Lesson 2: FPS, Images and Events
+### Topic 2: FPS, Images and Events
 #### Objectives: 
 + Understand how animation works in programming a game 
 + Understand how computers control the speed of screen refresh rate (Frame Per Second)
@@ -62,4 +62,6 @@ Along the way, you will practice design, testing, and iteration, as you come to 
 + Students will be able to adjust FPS to tailor their animation in their game program
 + Students will be able to load images from files and scale them to appropriate sizes for their games
 + Students will be able to use key board events to control their sprite and close their game smoothly
+
+
 
