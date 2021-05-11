@@ -3,30 +3,47 @@ var Features = ["Organisation", 'Ideas', 'Voice', 'Sentence Fluency', 'Word Choi
 
         // $("#btnPrint").live("click", function () 
 
-       function updateSticker() {
+       function updateSticker(orig) {
+
+        var origin = orig;
 
         var x = document.getElementById("form1");
         var date = x.elements[0].value;
         var Objective = x.elements[1].value;
         Objective= Objective.replace(/\n/g,"<br>").replace(/\r/g,"<br>");
 
-
         var table = '<table style="border-collapse: collapse; background-color: white;">';
 
-        table +='<tr><td style="border: 1px solid black;padding: 0.5rem;text-align: left;font-weight: bold;" colspan="1"> Date: ' + date + '</td><td colspan=2 style="border: 1px solid black;padding: 0.5rem;text-align: left; font-weight: bold;">Learning Objective:<br> '+ Objective + '</td></tr>';
+       if (origin == 'featured' ){
 
-        table += '<tr><td style="border: 1px solid black;padding: 0.5rem;text-align: center; font-weight: bold;">Features</td><td style="border: 1px solid black;padding: 0.5rem;text-align: center;font-weight: bold;" class="long" >Success Criteria</td><td style="border: 1px solid black;padding: 0.5rem;text-align: center;font-weight: bold;">Self/Peer Assessment</td></tr>';
+          table +='<tr><td style="border: 1px solid black;padding: 0.5rem;text-align: left;font-weight: bold;" colspan="1"> Date: ' + date + '</td><td colspan=2 style="border: 1px solid black;padding: 0.5rem;text-align: left; font-weight: bold;">Learning Objective:<br> '+ Objective + '</td></tr>';
+        
+          table += '<tr><td style="border: 1px solid black;padding: 0.5rem;text-align: center; font-weight: bold;">Features</td><td style="border: 1px solid black;padding: 0.5rem;text-align: center;font-weight: bold;" class="long" >Success Criteria</td><td style="border: 1px solid black;padding: 0.5rem;text-align: center;font-weight: bold;">Self/Peer Assessment</td></tr>';
+
+        } else {
+          table +='<tr><td style="border: 1px solid black;padding: 0.5rem;text-align: left;font-weight: bold;" colspan="2"> Date: ' + date + '</td></tr><tr><td colspan="2" style="border: 1px solid black;padding: 0.5rem;text-align: left; font-weight: bold;">Learning Objective:<br> '+ Objective + '</td></tr>';
+        
+          table += '<tr><td style="border: 1px solid black;padding: 0.5rem;text-align: center;font-weight: bold;" class="long" >Success Criteria</td><td style="border: 1px solid black;padding: 0.5rem;text-align: center;font-weight: bold;">Self/Peer Assessment</td></tr>';
+
+        };
 
          
            
   for (var i = 2; i < 8; i++) {
 
-    table += "<tr><td  style='border: 1px solid black;padding: 0.5rem;text-align: left;font-weight: bold;'>" + Features[i-2] + "<img src='"+ images[i-2] + "' style='width: 40px;'>" 
+    if (origin == 'featured' ){
+      table += "<tr><td style='border: 1px solid black;padding: 0.5rem;text-align: left;font-weight: bold;'>" + Features[i-2] + "<img src='"+ images[i-2] + "' style='width: 40px;'>" 
      + "</td><td style='border: 1px solid black;padding: 0.5rem;text-align: left;'>" + x.elements[i].value.replace(/\n/g,"<br>").replace(/\r/g,"<br>")
    
      + "</td><td style='border: 1px solid black;padding: 0.5rem;text-align: left;'>" +
         
         "</td></tr>";
+      } else {
+
+      table += "<tr><td style='border: 1px solid black;padding: 0.5rem;text-align: left;'><div style='min-height: 20px;'>" + x.elements[i].value.replace(/\n/g,"<br>").replace(/\r/g,"<br>")   
+     + "</div></td><td style='border: 1px solid black;padding: 0.5rem;text-align: left;'>" + "</td></tr>";
+        
+      };
     };
       
 

@@ -56,52 +56,54 @@
 
     </style>
 </head>
-<body onload="updateSticker()">
+<body onload="updateSticker('featured')">
 
 <div class="container-fluid">
   <h1>LO Sticker Generator</h1>
   <p>Type in, then hit enter,  and you will see the sticker being generated on the right pane. 
   Use Tab to move from input field to input field to speed up your work. 
   When you are happy with your sticker, just click Print button to print to PDF or a printer.</p>
+   <div id="blankSticker"><a href="plainSticker.html"><button class='btn btn-primary'>Plain Sticker</button></a></div>
    <div style="text-align: center;">
      <div id="print"></div>
+
    </div>
   <div class="row">
     <div class="col-sm-6" style="background-color:#AED9CD;"><div class="fillForm">
     <form id="form1">
       <table>
-      <tr><td colspan="1" class="feature"> Date: <input type="date" name="date" id="datepicker" onchange="updateSticker()"></td><td colspan=2 class="feature">Learning Objective: <br><textarea class="form-control"  name="Objective" onchange="updateSticker()"></textarea></td></tr>
+      <tr><td colspan="1" class="feature"> Date: <input type="date" name="date" id="datepicker" onchange="updateSticker('featured')"></td><td colspan=2 class="feature">Learning Objective: <br><textarea class="form-control"  name="Objective" onchange="updateSticker('featured')"></textarea></td></tr>
 
       <tr><td class="feature">Features</td><td class="long" style="font-weight: bold; text-align: center;">Success Criteria</td><td class="feature">Self/Peer Assessment</td></tr>
    
      <tr> 
         <td class="feature">Organisation<img src="img/org-1.png"></td>
-        <td><textarea class="form-control" name="organisation" onchange="updateSticker()"></textarea></td>
+        <td><textarea class="form-control" name="organisation" onchange="updateSticker('featured')"></textarea></td>
         <td></td>
       </tr>
      <tr> 
         <td class="feature">Ideas<img src="img/idea-1.png"></td>
-        <td><textarea class="form-control" type="textfield" name="ideas" onchange="updateSticker()"></textarea></td>
+        <td><textarea class="form-control" type="textfield" name="ideas" onchange="updateSticker('featured')"></textarea></td>
         <td></td>
       </tr>
      <tr> 
         <td class="feature">Voice<img src="img/voice-1.png"></td>
-        <td><textarea class="form-control"  name="voice" onchange="updateSticker()"></textarea></td>
+        <td><textarea class="form-control"  name="voice" onchange="updateSticker('featured')"></textarea></td>
         <td></td>
       </tr>
        <tr> 
         <td class="feature">Sentence Fluency<img src="img/fluency-1.png"></td>
-        <td><textarea class="form-control" name="fluency" onchange="updateSticker()"></textarea></td>
+        <td><textarea class="form-control" name="fluency" onchange="updateSticker('featured')"></textarea></td>
         <td></td>
       </tr>
        <tr> 
         <td class="feature">Word Choice<img src="img/wordchoice-1.png"></td>
-        <td><textarea class="form-control" name="wordchoice" onchange="updateSticker()"></textarea></td>
+        <td><textarea class="form-control" name="wordchoice" onchange="updateSticker('featured')"></textarea></td>
         <td></td>
       </tr>
        <tr> 
         <td class="feature">Conventions<img src="img/convention-1.png"></td>
-        <td><textarea class="form-control" name="conventions" onchange="updateSticker()"></textarea></td>
+        <td><textarea class="form-control" name="conventions" onchange="updateSticker('featured')"></textarea></td>
         <td></td>
       </tr>
         </table>

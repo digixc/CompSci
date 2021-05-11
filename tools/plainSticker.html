@@ -36,7 +36,7 @@
         }
 
         td.long {
-          width: 60%;
+          width: 100%;
           font-size: 1em;
         }
 
@@ -56,13 +56,14 @@
 
     </style>
 </head>
-<body onload="updateSticker()">
+<body onload="updateSticker('blank')">
 
 <div class="container-fluid">
   <h1>LO Sticker Generator</h1>
   <p>Type in, then hit enter,  and you will see the sticker being generated on the right pane. 
   Use Tab to move from input field to input field to speed up your work. 
   When you are happy with your sticker, just click Print button to print to PDF or a printer.</p>
+    <div id="sticker"><a href="Sticker.html"><button class='btn btn-primary'>Six Features Sticker</button></a></div>
    <div style="text-align: center;">
      <div id="print"></div>
    </div>
@@ -70,35 +71,35 @@
     <div class="col-sm-6" style="background-color:#AED9CD;"><div class="fillForm">
     <form id="form1">
       <table>
-      <tr><td colspan="2" class="feature"> Date: <input type="date" name="date" id="datepicker" onchange="updateSticker()"></td></tr>
+      <tr><td colspan="2" class="feature"> Date: <input type="date" name="date" id="datepicker" onchange="updateSticker('blank')"></td></tr>
 <tr>
-        <td colspan='2' class="feature">Learning Objective: <br><textarea class="form-control"  name="Objective" onchange="updateSticker()"></textarea></td></tr>
+        <td colspan='2' class="feature">Learning Objective: <br><textarea class="form-control"  name="Objective" onchange="updateSticker('blank')"></textarea></td></tr>
 
       <tr><td class="long" style="font-weight: bold; text-align: center;">Success Criteria</td><td class="feature">Self/Peer Assessment</td></tr>
    
      <tr> 
        
-        <td><textarea class="form-control" name="organisation" onchange="updateSticker()"></textarea></td>
+        <td><textarea class="form-control" name="organisation" onchange="updateSticker('blank')"></textarea></td>
         <td></td>
       </tr>
      <tr> 
-        <td><textarea class="form-control" type="textfield" name="ideas" onchange="updateSticker()"></textarea></td>
+        <td><textarea class="form-control" type="textfield" name="ideas" onchange="updateSticker('blank')"></textarea></td>
         <td></td>
       </tr>
      <tr> 
-        <td><textarea class="form-control"  name="voice" onchange="updateSticker()"></textarea></td>
+        <td><textarea class="form-control"  name="voice" onchange="updateSticker('blank')"></textarea></td>
         <td></td>
       </tr>
        <tr> 
-        <td><textarea class="form-control" name="fluency" onchange="updateSticker()"></textarea></td>
+        <td><textarea class="form-control" name="fluency" onchange="updateSticker('blank')"></textarea></td>
         <td></td>
       </tr>
        <tr> 
-        <td><textarea class="form-control" name="wordchoice" onchange="updateSticker()"></textarea></td>
+        <td><textarea class="form-control" name="wordchoice" onchange="updateSticker('blank')"></textarea></td>
         <td></td>
       </tr>
        <tr> 
-        <td><textarea class="form-control" name="conventions" onchange="updateSticker()"></textarea></td>
+        <td><textarea class="form-control" name="conventions" onchange="updateSticker('blank')"></textarea></td>
         <td></td>
       </tr>
         </table>
