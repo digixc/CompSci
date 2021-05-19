@@ -22,10 +22,10 @@ video {margin-bottom:20px; width: 40%;text-align:center;}
  .button2 {background-color: #008CBA;} /* Blue */
 .button3 {background-color: #f44336;} /* Red */ 
 </style>
-<button class="button"><a href="microbit">Micro:bit</a></button>
+<button class="button"><a href="#microbit">Micro:bit</a></button>
 <button class="button button2">Phidget</button>
 <button class="button button3">Lego Mind Storm</button>
-## <a name="microbit">Year 9 Computer Science Unit: Physical Computing with Micro:bit </a>
+## <a id="microbit">Year 9 Computer Science Unit: Physical Computing with Micro:bit </a>
 
 | Objectives:
 
