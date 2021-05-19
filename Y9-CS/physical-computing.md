@@ -23,7 +23,7 @@ video {margin-bottom:20px; width: 40%;text-align:center;}
 .button3 {background-color: #f44336;} /* Red */ 
 </style>
 <button class="button"><a href="#microbit">Micro:bit</a></button>
-<button class="button button2">Phidget</button>
+<button class="button button2"><a href="#phidgets">Phidget</a></button>
 <button class="button button3">Lego Mind Storm</button>
 ## <a id="microbit">Year 9 Computer Science Unit: Physical Computing with Micro:bit </a>
 
@@ -60,6 +60,24 @@ You will then learn how to use the built-in accelerometer to detect motions and 
 + Students will be able to understand how to coordinate of the LEDs on the Micro:bit to make images
 
 
+## <a id="phidgets">Year 9 Computer Science Unit: Physical Computing with Phidgets </a>
+
+| Objectives:
+
++ Develop understanding of the basic hardware components of a modern computer
++ Develop understanding that sensors are major part of IoT
++ Develop programming skills by implementing solutions to practical problems
++ Develop problem solving skills 
+
+| Learning outcomes:
+
++ Be able to name hardware components of a basic computer and describe their purposes
++ Be able to understand basic operations of a computer - input, process and output
++ Be able to create precise instructions using programming language 
++ Be able to use programming language constructs logically when solving problems 
+
+
+| Learning pathway:
 
 
 
