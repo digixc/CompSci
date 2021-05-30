@@ -2,7 +2,7 @@
 title: Computational Problem Solving Day
 author: Xiaohui Ellis
 ---
-
+### Computational Problem Solving day
 #### What is it?
 + A day or half a day or minimum two hours of whole school computational problem solving activities
 + Problems include physical puzzles, written puzzles and problems, programming problems, robotics and problems involving physical components
