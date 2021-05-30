@@ -1,33 +1,49 @@
 var Features = ["Organisation", 'Ideas', 'Voice', 'Sentence Fluency', 'Word Choice', 'Conventions'];
-      var images = ["img/pencil.png", "img/idea.png", "img/ruler.png", "img/note.png","img/pencil.png","img/idea.png"];
+      var images = ["img/org-1.png", "img/idea-1.png", "img/voice-1.png", "img/fluency-1.png","img/wordchoice-1.png","img/convention-1.png"];
 
         // $("#btnPrint").live("click", function () 
 
-       function updateSticker() {
+       function updateSticker(orig) {
+
+        var origin = orig;
 
         var x = document.getElementById("form1");
         var date = x.elements[0].value;
         var Objective = x.elements[1].value;
         Objective= Objective.replace(/\n/g,"<br>").replace(/\r/g,"<br>");
 
-
         var table = '<table style="border-collapse: collapse; background-color: white;">';
 
-        table +='<tr><td style="border: 1px solid black;padding: 0.5rem;text-align: left;font-weight: bold;" colspan="1"> Date: ' + date + '</td><td colspan=3 style="border: 1px solid black;padding: 0.5rem;text-align: left; font-weight: bold;">Learning Objective:<br> '+ Objective + '</td></tr>';
+       if (origin == 'featured' ){
 
-        table += '<tr><td style="border: 1px solid black;padding: 0.5rem;text-align: center; font-weight: bold;" rowspan="2">Features</td><td style="border: 1px solid black;padding: 0.5rem;text-align: center;font-weight: bold;" rowspan="2" class="long" >Success Criteria</td><td style="border: 1px solid black;padding: 0.5rem;text-align: center;font-weight: bold;" colspan="2" >Self/Peer Assessment</td></tr>';
+          table +='<tr><td style="border: 1px solid black;padding: 0.5rem;text-align: left;font-weight: bold;" colspan="1"> Date: ' + date + '</td><td colspan=2 style="border: 1px solid black;padding: 0.5rem;text-align: left; font-weight: bold;">Learning Objective:<br> '+ Objective + '</td></tr>';
+        
+          table += '<tr><td style="border: 1px solid black;padding: 0.5rem;text-align: center; font-weight: bold;">Features</td><td style="border: 1px solid black;padding: 0.5rem;text-align: center;font-weight: bold;" class="long" >Success Criteria</td><td style="border: 1px solid black;padding: 0.5rem;text-align: center;font-weight: bold;">Self/Peer Assessment</td></tr>';
 
-        table += '<tr><td style="border: 1px solid black;padding: 0.5rem;text-align: center;"><img src="img/YES.png" style="width: 25px;"></td><td style="border: 1px solid black;padding: 0.5rem;text-align: center;"><img src="img/NO.png" style="width: 25px;"></td></tr>';
+        } else {
+          table +='<tr><td style="border: 1px solid black;padding: 0.5rem;text-align: left;font-weight: bold;" colspan="2"> Date: ' + date + '</td></tr><tr><td colspan="2" style="border: 1px solid black;padding: 0.5rem;text-align: left; font-weight: bold;">Learning Objective:<br> '+ Objective + '</td></tr>';
+        
+          table += '<tr><td style="border: 1px solid black;padding: 0.5rem;text-align: center;font-weight: bold;" class="long" >Success Criteria</td><td style="border: 1px solid black;padding: 0.5rem;text-align: center;font-weight: bold;">Self/Peer Assessment</td></tr>';
+
+        };
+
          
            
   for (var i = 2; i < 8; i++) {
 
-    table += "<tr><td  style='border: 1px solid black;padding: 0.5rem;text-align: left;font-weight: bold;'>" + Features[i-2] + "<img src='"+ images[i-2] + "' style='width: 40px;'>" 
+    if (origin == 'featured' ){
+      table += "<tr><td style='border: 1px solid black;padding: 0.5rem;text-align: left;font-weight: bold;'>" + Features[i-2] + "<img src='"+ images[i-2] + "' style='width: 40px;'>" 
      + "</td><td style='border: 1px solid black;padding: 0.5rem;text-align: left;'>" + x.elements[i].value.replace(/\n/g,"<br>").replace(/\r/g,"<br>")
    
      + "</td><td style='border: 1px solid black;padding: 0.5rem;text-align: left;'>" +
         
-        "</td>" + "<td style='border: 1px solid black;padding: 0.5rem;text-align: left;'></td></tr>";
+        "</td></tr>";
+      } else {
+
+      table += "<tr><td style='border: 1px solid black;padding: 0.5rem;text-align: left;'><div style='min-height: 20px;'>" + x.elements[i].value.replace(/\n/g,"<br>").replace(/\r/g,"<br>")   
+     + "</div></td><td style='border: 1px solid black;padding: 0.5rem;text-align: left;'>" + "</td></tr>";
+        
+      };
     };
       
 
@@ -41,9 +57,10 @@ var Features = ["Organisation", 'Ideas', 'Voice', 'Sentence Fluency', 'Word Choi
 
       function printPDF() {
           var divContents = $("#dvContainer").html();
-          var printWindow = window.open('', '', 'height=400,width=800');
-          printWindow.document.write('<html><head><link rel="stylesheet" href="css/printSticker.css"></head><title>DIV Contents</title>');
+          var printWindow = window.open('', '', 'height=1200,width=800');
+          printWindow.document.write('<html><head><link rel="stylesheet" href="css/printSticker.css"></head><title>Learning Stickers</title>');
           printWindow.document.write('</head><body><div class="content">');
+          printWindow.document.write(divContents);
           printWindow.document.write(divContents);
           printWindow.document.write('</div></body></html>');
           printWindow.document.close();

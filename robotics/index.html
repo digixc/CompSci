@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<!-- This site was created in Webflow. http://www.webflow.com -->
+<!-- Last Published: Tue Apr 20 2021 16:21:55 GMT+0000 (Coordinated Universal Time) -->
+<html data-wf-domain="wf-blog-2021.webflow.io" data-wf-page="6009ec8da1ed9a6bb19772d1" data-wf-site="6009e6adcf8c45466fee3e56" lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>Wellington Physical Computing</title>
+ 
+    <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  
+    <link href="https://assets-global.website-files.com/6009e6adcf8c45466fee3e56/css/wf-blog-2021.webflow.54494f55c.min.css" rel="stylesheet" type="text/css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+    WebFont.load({
+        google: {
+            families: ["Roboto Mono:300,regular,500"]
+        }
+    });
+    </script>
+    <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif]-->
+    <script type="text/javascript">
+    !function(o, c) {
+        var n = c.documentElement,
+            t = " w-mod-";
+        n.className += t + "js",
+        ("ontouchstart" in o || o.DocumentTouch && c instanceof DocumentTouch) && (n.className += t + "touch")
+    }(window, document);
+    </script>
+  
+   
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <style>
+    /* html,body {
+    	overflow-x: hidden;
+    } */
+    .css-1s8q1mb {
+        bottom: 50px !important;
+        right: 10px !important;
+    }
+
+    .w-container {
+        max-width: 1170px;
+    }
+
+    body {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+
+    #BeaconContainer-root .c-Link {
+        color: #4353FF !important;
+    }
+
+    .footer-link, .footer-heading {
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+
+    .float-label {
+        color: white !important;
+    }
+
+    ::selection {
+        background: rgb(67, 83, 255);
+        /* Bright Blue */
+        color: white;
+    }
+
+    ::-moz-selection {
+        background: rgb(67, 83, 255);
+        /* Bright Blue */
+        color: white;
+    }/*Global Focus Outline Color*/
+
+    * :focus-visible {
+        outline: 2px solid #3442d0 !important;
+        outline-offset: 1px !important;
+        border-radius: 0px !important;
+    }
+
+    .button {
+        outline: none;
+    }
+
+    .button:focus-visible {
+        outline: 2px solid #3442d0;
+    }
+
+    @media (max-width: 479px) {
+        .chart__category h5, .chart__column h5 {
+            font-size: 12px !important;
+        }
+    }
+
+    .chart__category div, .chart__column div {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    #consent-container > div > div {
+        background-color: #262626 !important;
+        border-radius: 0px !important;
+    }
+
+    .css-7066so-Root {
+        max-height: calc(100vh - 140px) !important;
+    }
+    </style>
+
+    <style>
+    .float-label {
+        position: absolute;
+        z-index: 1;
+        pointer-events: none;
+        left: 0px;
+        top: 6px;
+        opacity: 0;
+        font-size: 11px;
+        text-transform: uppercase;
+        color: #a8c0cc;
+    }
+
+    .validator {
+        zoom: 1;
+        transform: translateY(-25px);
+        white-space: nowrap;
+    }
+
+    .invalid {
+        box-shadow: inset 0 -2px 0 0px #EB5079;
+    }
+    </style>
+
+    <style>
+    #HSBeaconFabButton {
+        border: none;
+        bottom: 50px !important;
+        right: 10px !important;
+    }
+
+    #BeaconContainer-root .c-Link {
+        color: #4353FF !important;
+    }
+
+    #HSBeaconFabButton:active {
+        box-shadow: none;
+    }
+
+    #HSBeaconFabButton.is-configDisplayRight {
+        right: 10px;
+        right: initial;
+    }
+
+    .c-SearchInput {
+        display: none !important;
+        opacity: 0.0 !important;
+    }
+
+    #BeaconFabButtonFrame {
+        border: none;
+        height: 100%;
+        width: 100%;
+    }
+
+    #HSBeaconContainerFrame {
+        bottom: 120px !important;
+        right: 10px !important;
+        @media (max-height: 740px) {
+            #HSBeaconFabButton {
+                bottom: 50px !important;
+                right: 10px !important;
+            }
+
+            #HSBeaconFabButton.is-configDisplayRight {
+                right: 10px !important;
+                right: initial;
+            }
+        }
+
+        @media (max-width: 370px) {
+            #HSBeaconFabButton {
+                right: 10px !important;
+            }
+
+            #HSBeaconFabButton.is-configDisplayRight {
+                right: initial;
+                right: 10px;
+            }
+
+            #HSBeaconFabButton.is-configDisplayRight {
+                right: 10px;
+                right: initial;
+            }
+        }
+        </style>
+
+    <meta name="theme-color" content="#4353ff"/>
+
+
+    <script>
+    wf_experiments.initExperiments([
+
+    ]);
+    </script>
+
+    <style>
+    .b-read.w-richtext figure[data-rt-type="video"] {
+        min-width: 0;
+        left: 0;
+    }
+
+    .cc-sticky-share {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 50vh;
+        -webkit-transform: translate(0px, -50%);
+        -ms-transform: translate(0px, -50%);
+        transform: translate(0px, -50%);
+    }
+
+    .cc-sticky-share .at_flat_counter:after {
+        top: -4px;
+        left: calc(50% - 4px);
+        border-width: 0 4px 4px 4px;
+        border-color: transparent transparent #ebebeb transparent;
+    }
+    </style>
+
+    <style>
+    #at-cv-toaster .at-cv-toaster-win {
+        box-shadow: none !important;
+        background: rgba(0, 0, 0, .8) !important;
+        border-radius: 10px !important;
+        font-family: Graphik, sans-serif !important;
+        width: 500px !important;
+        bottom: 44px;
+    }
+
+    #at-cv-toaster .at-cv-footer a {
+        opacity: 0 !important;
+        display: none !important;
+    }
+
+    #at-cv-toaster .at-cv-close {
+        padding: 0 10px !important;
+        font-size: 32px !important;
+        color: #fff !important;
+        margin: 5px 5px 0 0 !important;
+    }
+
+    #at-cv-toaster .at-cv-close:hover {
+        color: #aaa !important;
+        font-size: 32px !important;
+    }
+
+    #at-cv-toaster .at-cv-close-end {
+        right: 0 !important;
+    }
+
+    #at-cv-toaster .at-cv-message {
+        color: #fff !important;
+    }
+
+    #at-cv-toaster .at-cv-body {
+        padding: 10px 40px 30px 40px !important;
+    }
+
+    #at-cv-toaster .at-cv-button {
+        border-radius: 3px !important;
+        margin: 0 10px !important;
+        height: 45px !important;
+        min-height: 45px !important;
+        line-height: 45px !important;
+        font-size: 15px !important;
+        font-family: Graphik, sans-serif !important;
+        font-weight: 500 !important;
+        padding: 0 30px !important;
+    }
+
+    #at-cv-toaster .at-cv-toaster-small-button {
+        width: auto !important;
+    }
+
+    .at-yes {
+        background-color: #4353ff !important;
+    }
+
+    .at-yes:hover {
+        background-color: #4054e9 !important;
+    }
+
+    .at-no {
+        background-color: rgba(255, 255, 255, 0.15) !important;
+    }
+
+    .at-no:hover {
+        background-color: rgba(255, 255, 255, 0.12) !important;
+    }
+
+    #at-cv-toaster .at-cv-toaster-message {
+        line-height: 28px !important;
+        font-weight: 500;
+    }
+
+    #at-cv-toaster .at-cv-toaster-bottomRight {
+        right: 0 !important;
+    }
+    </style>
+</head>
+<body class="b-body">
+    <nav class="b-nav">
+        <div data-ix="blog-nav-show" class="b-nav__wrap">
+            <div class="b-nav__inner">
+                <div class="b-nav__left">
+
+                    <div class="b-nav__links">
+                        <a href="https://www.wellingtonshanghai.org/Y7-9-Progression.html" class="b-nav__link">Computer Science</a>
+                        <a href="https://www.wellingtonshanghai.org/Y7-9-Progression.html" class="b-nav__link">Digital Media</a>
+                        <a href="https://igcse.wellingtonshanghai.org/" class="b-nav__link">IGCSE</a>
+                        <a href="https://ibcs.wellingtonshanghai.org/" class="b-nav__link">IB</a>
+                        <a href="#" class="b-nav__link">Robotics</a>
+                    </div>
+
+                </div>
+                <div class="b-nav__right">
+                    <a id="continue-nav"  href="https://www.wellingtonshanghai.org">
+                        <div>
+                            Computing Portal  
+                            <span class="cc-light">—  Home</span>
+                        </div>
+                    </a>
+                   
+                        </div>
+                    </div>
+                
+                </div>
+            </div>
+    
+        </div>
+
+    </nav>
+
+    <header data-w-id="8669a619-9c51-b053-f1b8-aa62677e4264" class="b-hero">
+        <figure style="background-image:url('img/robot.jpg')" class="b-post__hero-image">
+            <div data-w-id="8669a619-9c51-b053-f1b8-aa62677e4266" class="b-post__hero-inner">
+                <div class="b-container cc-read cc-hero">
+                    <div class="b-read__wrap cc-hero">
+                        <h1 class="b-post__title">Robotics & Physical Computing</h1>
+                        <p class="b-post__subhead">Hands on, Interactive, Challenging</p>
+                        <div class="b-post__details-wrap">
+                            <div class="b-post__details-wrap-cell">
+                            <div class="b-post__hero-detail-text">Meet the Robots</div>
+                            </div>
+                            <div class="b-post__details-wrap-cell">
+                                <div class="b-post__hero-detail-text">Progression</div>
+                            </div>
+                            <div class="b-post__details-wrap-cell">
+                            <a href="#gallery" class="b-post__details-wrap-cell cc-last w-inline-block">
+                                <div class="b-post__hero-detail-text">Gallery</div>
+                            </a>
+                            </div>
+                            <a href="#MakerSpace" class="b-post__details-wrap-cell cc-last w-inline-block">
+                                <div class="b-post__hero-detail-text">Tour Our Robotics Lab</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </figure>
+    </header>
+    <main class="b-section cc-post">
+        <div class="b-container cc-read">
+            <article class="b-read__wrap">
+                <p class="b-lede">Robotics & Physical Computing at Wellington College International Shanghai</p>
+                <div class="b-read rich w-richtext">
+                    <p>
+                        <em>Robotics</em>
+                         is the science and technology behind the design, manufacturing and application of robots.
+
+                        A <em>robot</em> is a programmable mechanical device that can perform tasks and interact with its environment, without the aid of human interaction.
+                    </p>
+                    <p>Here at Wellington College International Shanghai Computer Science department, we offer a wide range of curriculums to all age groups using the most up to date educational robots and physical components suitable for our students. </p>
+<!--                     <ol role="list">
+                        <li></li>
+                        <li>
+                             
+        
+                        </li>
+                    </ol>
+                     -->
+                     <img src='img/under_construction.jpg'>
+                </div>
+                      
+            </article>
+        </div>
+    
+    </main>
+    <section class="b-section cc-50-0">
+        <div class="b-container cc-vertical">
+            <div class="b-title-bar">
+                <a name="gallery">
+                <h2 class="b-title-bar__title cc-medium">Robotics & Physical Computing in our lessons...</h2></a>
+            </div>
+
+            <div class="w-dyn-list">
+                <div role="list" class="b-hp-row__list w-dyn-items">
+                    <div role="listitem" class="b-hp-row__list-item cc-medium w-dyn-item">
+                        <div class="b-post-thumb__wrap cc-no-bottom-pad">
+                           
+                                <img src="img/dash-1.jpeg" style="width:100%;"/>
+                           
+                            <div class="b-post-thumb__text">
+                                
+                                    <p class="b-thing__desc cc-small">
+                                        Year 7 programming the Dash robots during a lesson.
+                                    </p>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <div role="listitem" class="b-hp-row__list-item cc-medium w-dyn-item">
+                        <div class="b-post-thumb__wrap cc-no-bottom-pad" style="width:100%;">
+                       
+                        <img src="img/Science_Week_science_week_SpehroLand.jpg" />
+                         
+                            <div class="b-post-thumb__text">
+                            
+                                    <p class="b-thing__desc cc-small">Year 7 controlling the Sphero robots during CCA.</p>
+                                
+                            </div>
+                        </div>
+
+
+                    </div>
+
+
+                    <div role="listitem" class="b-hp-row__list-item cc-medium w-dyn-item">
+                        <div class="b-post-thumb__wrap cc-no-bottom-pad" style="width:100%;">
+                       
+                                <img src="img/sphero-hydra.jpeg" />
+                         
+                            <div class="b-post-thumb__text">
+                            
+                          
+                                    <p class="b-thing__desc cc-small">Year 7 programming the Sphero robots during CCA.</p>
+                                
+                            </div>
+                        </div>
+
+
+                    </div>
+                      <div role="listitem" class="b-hp-row__list-item cc-medium w-dyn-item">
+                        <div class="b-post-thumb__wrap cc-no-bottom-pad" style="width:100%;">
+                       
+                                <img src="img/Y9-LieDetector.jpeg" />
+                         
+                            <div class="b-post-thumb__text">
+                            
+                          
+                                    <p class="b-thing__desc cc-small">Year 9 building and programming a lie detector during a lesson.</p>
+                                
+                            </div>
+                        </div>
+
+
+                    </div>
+                      
+
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+    
+    <script>
+
+    $(window).resize(function() {
+        $('.nav_main, .nav_inner, .nav_dropdown, .nav_background').attr('style', '');
+    });
+    </script>
+   
+</body>
+</html>
+
+
