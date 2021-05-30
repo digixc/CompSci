@@ -4,7 +4,7 @@
 + a collaborative and creative problem solving event
 + it can last several hours - shorter duration for younger participants and longer for older ones
 + it can have a theme ot focus such as creating solutions for a given problem,e.g. sustainable living, or using a specific APIs to create different applications 
-+ the end goal can be software or hardware
++ the goal of a hackathon is to create working software or hardware by the end of the event
 
 #### Philosophy
 + bringing school communities together
@@ -23,3 +23,7 @@
 + can be hosted in one school or virtual via video conference or a combination of both
 + host school need to provide space, power supply and internet access at a minimum
 + parent consent should be obtained
+
+#### Communication within community 
++ this web page will publish details of an upcoming hackathon
++ schools need to register for their interests 
