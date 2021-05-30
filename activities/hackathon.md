@@ -1,3 +1,8 @@
+---
+title: How to host a Hackathon
+author: Xiaohui Ellis
+---
+
 ### Hackathon 
 
 #### What is it?
