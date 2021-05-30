@@ -11,7 +11,7 @@ author: Xiaohui Ellis
 + it can have a theme ot focus such as creating solutions for a given problem,e.g. sustainable living, or using a specific APIs to create different applications 
 + the goal of a hackathon is to create working software or hardware by the end of the event
 
-#### Philosophy
+#### Objectives
 + bringing school communities together
 + inspiring young learners
 + providng learning and relationship building opportunities for all
