@@ -17,7 +17,7 @@ author: Xiaohui Ellis
 + providng learning and relationship building opportunities for all
 + providing opportunities for keen learners to work on interesting problems
 
-#### Factors to consider for a successful hackathon
+#### Factors for a successful hackathon
 + a well defined problem scope that is attainable for the time given
 + a subject specialist mentor for each team (4-5 participants)
 + a team lead who can manage tasks so that each team member can contribute
