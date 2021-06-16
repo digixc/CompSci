@@ -11,10 +11,6 @@ button {float: right;margin-bottom: 20px; background-color: lightblue; border-ra
 video {margin-bottom:20px; width: 40%;text-align:center;}
 </style>
 
-<video auto-play="true" loop="loop" muted="muted" controls>
-  <source src="./img/xmas_pygame.mp4" type="video/mp4">
-</video>
-
 ## Year 8 Computer Science Unit: Group Project 
 
 | Objectives:

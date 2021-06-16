@@ -11,13 +11,13 @@ author: Xiaohui Ellis
 + it can have a theme ot focus such as creating solutions for a given problem,e.g. sustainable living, or using a specific APIs to create different applications 
 + the goal of a hackathon is to create working software or hardware by the end of the event
 
-#### Philosophy
+#### Objectives
 + bringing school communities together
 + inspiring young learners
 + providng learning and relationship building opportunities for all
 + providing opportunities for keen learners to work on interesting problems
 
-#### Factors to consider for a successful hackathon
+#### Factors for a successful hackathon
 + a well defined problem scope that is attainable for the time given
 + a subject specialist mentor for each team (4-5 participants)
 + a team lead who can manage tasks so that each team member can contribute
