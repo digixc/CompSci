@@ -215,7 +215,8 @@ html, body {
 }
 
 #page #work .y9-box ul li {
-    margin-left:20px
+    margin-left:10%;
+    font-size:0.6em;       
 }
 
 #page #work .y9-box ul li a {
