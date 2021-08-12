@@ -2,7 +2,19 @@
 title: How to host a Hackathon
 author: Xiaohui Ellis
 ---
-
+<div align="center">
+	<br>
+	<a href="https://github.com/digixc/Wellington-Shanghai-CS/edit/gh-pages/activities/header.svg">
+		<img src="header.svg" width="800" height="400" alt="Click to see the source">
+	</a>
+	<br>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 ### Hackathon 
 
 #### What is it?
