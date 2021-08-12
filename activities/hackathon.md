@@ -2,6 +2,7 @@
 title: How to host a Hackathon
 author: Xiaohui Ellis
 ---
+
 <div align="center">
 	<br>
 		<img src="header.svg" width=80% height="400">
