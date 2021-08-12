@@ -80,6 +80,13 @@
 					text-shadow: 0 1px 0 #efefef;
 					#animation: 5s ease 0s normal forwards 1 fadeIn;
 				}
+				
+				h3 {
+					font-size: 30px;
+					line-height: 1.3;
+					letter-spacing: 5px;
+					text-transform: uppercase;
+				}
         
 			</style>
 			<div class="container">
