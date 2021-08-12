@@ -13,15 +13,15 @@ author: Xiaohui Ellis
 
 ### Shanghai International School Hackathon Event 2021
 #### What is it?
-+ a collaborative and creative problem solving event
-+ the goal of a hackathon is to create working software or hardware by the end of the event
-+ it has a pre-defined theme
++ A collaborative and creative problem solving event
++ The goal of a hackathon is to create working software or hardware by the end of the event
++ It has a pre-defined theme
 
 #### Objectives
-+ bringing school communities together
-+ inspiring young learners
-+ providng learning and relationship building opportunities for all
-+ providing opportunities for keen learners to work on interesting problems
++ Bringing school communities together
++ Inspiring young learners
++ Providng learning and relationship building opportunities for all
++ Providing opportunities for keen learners to work on interesting problems
 
 #### Time and location
 
