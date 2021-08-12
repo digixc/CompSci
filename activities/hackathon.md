@@ -1,5 +1,5 @@
 ---
-title: How to host a Hackathon
+title: Hackathon Shanghai 2021
 author: Xiaohui Ellis
 ---
 
