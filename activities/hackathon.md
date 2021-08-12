@@ -9,8 +9,7 @@ author: Xiaohui Ellis
 	<br>
 </div>
 <br>
-<br>
-<br>
+
 
 ### Shanghai International School Hackathon Event 2021
 #### What is it?
