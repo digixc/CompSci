@@ -32,7 +32,7 @@ author: Xiaohui Ellis
 ### Participating schools need to know
 + Space, online access, food and drinks provided by the host school
 + Parent consent should be obtained by each school
-+ Each school can bring up to two teams of maximum 4 members each. Idealy one junior and one senior team
++ Each school can bring up to two teams of maximum 5 members each.
 + A subject specialist mentor for each team
 + A team lead who can manage tasks so that each team member can contribute
 + Please register your interest [here](mailto:xiaohui.ellis@wellingtoncollege.cn)
