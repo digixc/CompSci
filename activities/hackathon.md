@@ -12,7 +12,7 @@ author: Xiaohui Ellis
 
 
 ### Shanghai International School Hackathon Event 2021
-| Your ideas and creativity are needed more than ever to bring new solutions to reality. Join the challenge and benefit on many levels.
+> Your ideas and creativity are needed more than ever to bring new solutions to reality. Join the challenge and benefit on many levels.
 #### What is it?
 + A collaborative and creative problem solving event
 + The goal of a hackathon is to create working software or hardware by the end of the event
