@@ -24,11 +24,16 @@ author: Xiaohui Ellis
 + Providing opportunities for keen learners to work on interesting problems
 
 ### Event scope
-```
-Health and Safety Monitoring DeepHack calls for your AI-powered sensors and computer vision solutions at the edge. Imagine how intelligent local devices collect and evaluate data in real time to aid individuals or groups of people to stay safe and healthy. Think about fall monitoring, how to assist the visually impaired, pedestrian/bicyclist safety, monitoring physical distance and mask wearing, physical worker safety, fitness and posture tracking - and other health and safety problems that can be solved with edge AI.
+*Create an AI and data-driven solution that helps individuals and the society*
+Using sensors and/or existing data in real time to help people stay safe and healthy. Such as:
++ social distance monitoring
++ fitness and posture tracking
++ disability assistance 
++ intelligent face mask wearing
 
-Your ideas and creativity are needed more than ever to bring new solutions to reality. Join the challenge and benefit on many levels: create an AI and data-driven solution that helps individuals and the society
-```
+
+Your ideas and creativity are needed more than ever to bring new solutions to reality. Join the challenge and benefit on many levels.
+
 
 #### Time and location
 
