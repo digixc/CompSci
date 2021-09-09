@@ -12,6 +12,7 @@ author: Xiaohui Ellis
 
 
 ### Shanghai International School Hackathon Event 2021
+Your ideas and creativity are needed more than ever to bring new solutions to reality. Join the challenge and benefit on many levels.
 #### What is it?
 + A collaborative and creative problem solving event
 + The goal of a hackathon is to create working software or hardware by the end of the event
@@ -25,14 +26,12 @@ author: Xiaohui Ellis
 
 ### Event scope
 *Create an AI and data-driven solution that helps individuals and the society*
-Using sensors and/or existing data in real time to help people stay safe and healthy. Such as:
+
+Using sensors and/or existing data *in real time* to help people stay safe and healthy. Such as:
 + social distance monitoring
 + fitness and posture tracking
 + disability assistance 
 + intelligent face mask wearing
-
-
-Your ideas and creativity are needed more than ever to bring new solutions to reality. Join the challenge and benefit on many levels.
 
 
 #### Time and location
