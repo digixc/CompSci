@@ -233,23 +233,24 @@ html, body {
 .events_cell a h3{text-decoration: none;font-size:24px;padding:10px 20px 0;text-align:center; position: relative;top:0; transition: top 0.5s;}
 .events_cell a:hover{background:#a4d0c8;box-shadow: 0 0px 10px rgba(0, 0, 0, 0.1), 0 0px 20px rgba(0, 0, 0, 0.15);}
 .events_cell a:hover i{top:-4px;}
-.events_cell a:hover h3{color:#fff;top:4px;}
-
+.events_cell a:hover h3{color:#4C4C4C;top:4px;text-decoration: none;}
+.events_cell a:link h3{color:#4C4C4C;top:4px;text-decoration: none;}
+.events_cell a:visited h3{color:#4C4C4C;top:4px;text-decoration: none;}
 /*.events_cell a span.icon .pic2,.events_cell a:hover span.icon .pic1{display:none;}
 .events_cell a:hover span.icon .pic2{display:block;}*/
 
-.events_cell:nth-child(1) a i{background-image:url(https://cmsstatic.wellingtoncollege.cn/preload/wcit/images/admission_icon1.png);}
-.events_cell:nth-child(2) a i{background-image:url(https://cmsstatic.wellingtoncollege.cn/preload/wcit/images/admission_icon2.png);}
-.events_cell:nth-child(3) a i{background-image:url(https://cmsstatic.wellingtoncollege.cn/preload/wcit/images/admission_icon3.png);}
-.events_cell:nth-child(4) a i{background-image:url(https://cmsstatic.wellingtoncollege.cn/preload/wcit/images/admission_icon4.png);}
+.events_cell:nth-child(1) a i{background-image:url(../img/lightbulb_icon.png);}
+.events_cell:nth-child(2) a i{background-image:url(../img/event_icon2.png);}
+.events_cell:nth-child(3) a i{background-image:url(../img/event_icon3.png);}
+/*.events_cell:nth-child(4) a i{background-image:url(https://cmsstatic.wellingtoncollege.cn/preload/wcit/images/admission_icon4.png);}
 .events_cell:nth-child(5) a i{background-image:url(https://cmsstatic.wellingtoncollege.cn/preload/wcit/images/admission_icon5.png);}
 .events_cell:nth-child(6) a i{background-image:url(https://cmsstatic.wellingtoncollege.cn/preload/wcit/images/admission_icon6.png);}
-.events_cell:nth-child(7) a i{background-image:url(https://cmsstatic.wellingtoncollege.cn/preload/wcit/images/admission_icon7.png);}
-.events_cell:nth-child(1) a:hover i{background-image:url(https://cmsstatic.wellingtoncollege.cn/preload/wcit/images/admission_icon1_hover.png);}
-.events_cell:nth-child(2) a:hover i{background-image:url(https://cmsstatic.wellingtoncollege.cn/preload/wcit/images/admission_icon2_hover.png);}
-.events_cell:nth-child(3) a:hover i{background-image:url(https://cmsstatic.wellingtoncollege.cn/preload/wcit/images/admission_icon3_hover.png);}
-.events_cell:nth-child(4) a:hover i{background-image:url(https://cmsstatic.wellingtoncollege.cn/preload/wcit/images/admission_icon4_hover.png);}
+.events_cell:nth-child(7) a i{background-image:url(https://cmsstatic.wellingtoncollege.cn/preload/wcit/images/admission_icon7.png);}*/
+.events_cell:nth-child(1) a:hover i{background-image:url(../img/lightbulb_icon_hover.png);}
+.events_cell:nth-child(2) a:hover i{background-image:url(../img/event_icon2_hover.png);}
+.events_cell:nth-child(3) a:hover i{background-image:url(../img/event_icon3_hover.png);}
+/*.events_cell:nth-child(4) a:hover i{background-image:url(https://cmsstatic.wellingtoncollege.cn/preload/wcit/images/admission_icon4_hover.png);}
 .events_cell:nth-child(5) a:hover i{background-image:url(https://cmsstatic.wellingtoncollege.cn/preload/wcit/images/admission_icon5_hover.png);}
 .events_cell:nth-child(6) a:hover i{background-image:url(https://cmsstatic.wellingtoncollege.cn/preload/wcit/images/admission_icon6_hover.png);}
-.events_cell:nth-child(7) a:hover i{background-image:url(https://cmsstatic.wellingtoncollege.cn/preload/wcit/images/admission_icon7_hover.png);}
+.events_cell:nth-child(7) a:hover i{background-image:url(https://cmsstatic.wellingtoncollege.cn/preload/wcit/images/admission_icon7_hover.png);}*/
 /*Wellington Voices*/
