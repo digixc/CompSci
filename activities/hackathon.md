@@ -46,6 +46,6 @@ Using sensors and/or existing data *in real time* to help people stay safe and h
 + Each school can bring up to two teams of maximum 5 members each.
 + A subject specialist mentor for each team
 + A team lead who can manage tasks so that each team member can contribute
-+ Please register your interest [here](mailto:xiaohui.ellis@wellingtoncollege.cn)
++ Please register your interest [here](https://docs.google.com/forms/d/e/1FAIpQLScTbpZ5sAl6hqFsvuyFIiYjuWK6kfrwR2nV2VCGCgi5utcemQ/viewform?embedded=true)
 
- 
+ <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScTbpZ5sAl6hqFsvuyFIiYjuWK6kfrwR2nV2VCGCgi5utcemQ/viewform?embedded=true" width="640" height="1035" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>

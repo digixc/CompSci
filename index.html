@@ -14,20 +14,18 @@
     <script src="js/jquery.matchHeight.js"></script><script src="js/jquery.matchHeight.js"></script>
     
     <style>
-        a.nodeco:visited {
-            color: white;
-            text-decoration: none;
-            font-weight: bold;
-        }
-         a.nodeco:link {
-            color: white;
-            text-decoration: none;
-             font-weight: bold;
-        }
-        #event {
-            background-color: orange;
-        }
-    </style>
+    a.nodeco:visited {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    a.nodeco:link {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+    }
+   
+</style>
 </head>
 <body>
     <div id="page">
@@ -38,18 +36,18 @@
             <div id="container">
                 <h1>Welcome to Computing at Wellington College International Shanghai</h1>
                 <div id="buttons">
-                   <a target="_blank" href="./doc/Computer Science Progression Plan.pdf">Computer Science Pathway</a>
-                    <a target="_blank" href="Y7-9-DigitalMedia-Progression.html">Digital Media Pathway</a>
-                    <a target="_blank" href="robotics/index.html">Robotics&Physical Computing</a>
+                 <a target="_blank" href="./doc/Computer Science Progression Plan.pdf">Computer Science Pathway</a>
+                 <a target="_blank" href="Y7-9-DigitalMedia-Progression.html">Digital Media Pathway</a>
+                 <a target="_blank" href="robotics/index.html">Robotics&Physical Computing</a>
 
-                    
+
                      <!-- a target="_blank" href="">Years 1-2 Pathway</a>
                      <a target="_blank" href="">Years 3-6 Pathway</a>
                      <a target="_blank" href="">Years 7-9 Pathway</a -->          
-                </div>
-            </div>
-        </header>
-        <div id="work">
+                 </div>
+             </div>
+         </header>
+         <div id="work">
             <div id="year5" class="box">
                 <div id="background">
                     <header>
@@ -66,7 +64,7 @@
                     <li>
                         <a href="Y5-Computing.html">Year 5 </a>
                     </li>
-                        <li>
+                    <li>
                         <a href="Y6-Computing.html">Year 6</a>
                     </li>
                     <br>
@@ -97,46 +95,67 @@
             <div id="Comp" class="box">
                 <div id="background">
                     <header>
-                   <a target="_blank" class='nodeco' href="Y7-9-Progression.html">Computer Science</h3></a>
-                    </header>
-                </div>
+                     <a target="_blank" class='nodeco' href="Y7-9-Progression.html">Computer Science</h3></a>
+                 </header>
+             </div>
              <ul>
-                    <li>
-                        <a href="Y7-CS.html">Year 7 </a>
-                    </li>
-                    <li>
-                        <a href="Y8-CS.html">Year 8</a>
-                    </li>
-                    <li>
-                        <a href="Y9-CS.html">Year 9</a>
-                    </li>
-                    <li>
-                        <a href="https://iGCSE.wellingtonshanghai.org/">iGCSE </a>
-                    </li>
-                    <li>
-                        <a href="https://IBCS.wellingtonshanghai.org/">IB</a>
-                    </li>
+                <li>
+                    <a href="Y7-CS.html">Year 7 </a>
+                </li>
+                <li>
+                    <a href="Y8-CS.html">Year 8</a>
+                </li>
+                <li>
+                    <a href="Y9-CS.html">Year 9</a>
+                </li>
+                <li>
+                    <a href="https://iGCSE.wellingtonshanghai.org/">iGCSE </a>
+                </li>
+                <li>
+                    <a href="https://IBCS.wellingtonshanghai.org/">IB</a>
+                </li>
                 
-                </ul>
-            </div>
-           
-
+            </ul>
         </div>
-        <div id="events" class="box">
-            <header>
-                <h3> Bebras Challenge 2021-2022</h3>
-                November 8-21, 2021
-            </header>
-    </div>
-    </div>
 
-    <script>
+
+  
+    <div class="events_list">
+
+        <div class="events_cell wow zoomIn animated animated" style="visibility: visible; animation-name: zoomIn;">
+            <a href="https://www.bebraschallenge.org">
+                <i></i>
+                <h3>Bebras Challenge</h3>
+            </a>
+        </div>
+
+
+        <div class="events_cell wow zoomIn animated animated" style="visibility: visible; animation-name: zoomIn;">
+            <a href="activities/hackathon.md">
+                <i></i>
+                <h3>Shanghai Hackathon</h3>
+            </a>
+        </div>
+
+
+        <div class="events_cell wow zoomIn animated animated" style="visibility: visible; animation-name: zoomIn;">
+            <a href="/events/">
+                <i></i>
+                <h3>Other Resources</h3>
+            </a>
+        </div>
+
+</div>
+  </div>
+
+
+<script>
     $(document).ready(function() {
         $('#page #work .box').matchHeight({
             byRow: true
         });
     });
-    </script>
+</script>
 </body>
 </html>
 
