@@ -24,7 +24,7 @@ author: Xiaohui Ellis
 + Providng learning and relationship building opportunities for all
 + Providing opportunities for keen learners to work on interesting problems
 
-### Event scope
+### Event theme
 *Create an AI and data-driven solution that helps individuals and the society*
 
 Using sensors and/or third party data *in real time* to help people stay safe and healthy. Such as:
