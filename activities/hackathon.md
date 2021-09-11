@@ -47,5 +47,5 @@ Using sensors and/or third party data *in real time* to help people stay safe an
 + Each school can bring up to two teams of maximum 5 members each.
 + A subject specialist mentor for each team
 + A team lead who can manage tasks so that each team member can contribute
-+ Please register your interest [here](https://docs.google.com/forms/d/e/1FAIpQLScTbpZ5sAl6hqFsvuyFIiYjuWK6kfrwR2nV2VCGCgi5utcemQ/viewform?embedded=true)
++ Please register your interest [here](https://forms.office.com/r/vFpN0B7Hmm)
 
