@@ -9,7 +9,7 @@ author: Xiaohui Ellis
 	<br>
 </div>
 <br>
-<a style="color:lightblue" href="https://forms.office.com/r/vFpN0B7Hmm">Register Here</a>
+<a style="color:lightblue; text-aligh:center;" href="https://forms.office.com/r/vFpN0B7Hmm">Register Here</a>
 
 ### Shanghai International School Hackathon Event 2021
 > Your ideas and creativity are needed more than ever to bring new solutions to reality. Join the challenge and benefit on many levels.
