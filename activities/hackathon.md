@@ -9,7 +9,7 @@ author: Xiaohui Ellis
 	<br>
 </div>
 <br>
-<a style="color:lightblue;" href="https://forms.office.com/r/vFpN0B7Hmm">Register Here</a>
+<a style="color:lightblue;" href="https://forms.office.com/r/vFpN0B7Hmm">Register Your School Here</a>
 
 ### Shanghai International School Hackathon Event 2021
 > Your ideas and creativity are needed more than ever to bring new solutions to reality. Join the challenge and benefit on many levels.
@@ -39,7 +39,9 @@ Using sensors and/or third party data *in real time* to help people stay safe an
 
 + *Place*: Wellington College International Shanghai Pudong
 + *Date*: Saturday November 27th  
-+ *Time*: starting at 8AM, 6 hours for junior teams (year 7-9) and 12 hours for senior teams (year 10 and up)
++ *Time*: 
+|Junior teams (year 7-9)| 8AM - 1PM: coding/making marathon| 1PM - 2PM: presentation and awards| 
+|Senior teams (year 10 and up)|8AM - 4PM: coding/making marathon | 4PM - 5PM: presentation and awards|
 
 ### Participating schools need to know
 + Space, online access, food and drinks provided by the host school

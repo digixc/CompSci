@@ -236,6 +236,7 @@ html, body {
 .events_cell a:hover h3{color:#4C4C4C;top:4px;text-decoration: none;}
 .events_cell a:link h3{color:#4C4C4C;top:4px;text-decoration: none;}
 .events_cell a:visited h3{color:#4C4C4C;top:4px;text-decoration: none;}
+.events_cell h3 {text-decoration: none;}
 /*.events_cell a span.icon .pic2,.events_cell a:hover span.icon .pic1{display:none;}
 .events_cell a:hover span.icon .pic2{display:block;}*/
 
