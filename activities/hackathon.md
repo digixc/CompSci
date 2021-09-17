@@ -40,7 +40,9 @@ Using sensors and/or third party data *in real time* to help people stay safe an
 + *Place*: Wellington College International Shanghai Pudong
 + *Date*: Saturday November 27th  
 + *Time*: 
++ 
 |Junior teams (year 7-9)| 8AM - 1PM: coding/making marathon| 1PM - 2PM: presentation and awards| 
+|-|-|
 |Senior teams (year 10 and up)|8AM - 4PM: coding/making marathon | 4PM - 5PM: presentation and awards|
 
 ### Participating schools need to know
