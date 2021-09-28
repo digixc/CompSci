@@ -54,8 +54,8 @@ Using sensors and/or third party data *in real time* to help people stay safe an
 + A team lead (either a student or a teacher) who can manage tasks so that each team member can contribute
 + If this is your first time participating a Hackathon, here is a brief plan you can follow:
 	+ Get students interested in the event by explaining what it is about (having fun!)
-	+ Orgnise your teams and each team will have one student or teacher as a leader. If the team lead is a teacher, he/she will also be a mentor 
-	+ The teams will come together and start brain storm project ideas based on the given theme. The plan is for each team to develop a concrete project idea and basic skills to develop the solution 
-	+ On the event day, work and collaborate to build a working solution
+	+ Organise your teams and each team will have one student or teacher as a leader. If the team lead is a teacher, he/she will also be a mentor 
+	+ The teams shoud work together 1-2 months before the event day and start brain storm on project ideas for the given theme. The purpose is for each team to develop a concrete project idea and basic skills to develop the solution 
+	+ On the event day, work and collaborate to build a working solution and have fun!
 + Please register your school [here](https://forms.office.com/r/vFpN0B7Hmm)
 
