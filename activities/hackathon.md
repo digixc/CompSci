@@ -1,14 +1,8 @@
 ---
 title: Hackathon Shanghai 2021
-author: Xiaohui Ellis
 ---
 
-<div align="center">
-	<br>
-		<img src="hackathonBanner.svg" style="width:80%;">
-	<br>
-</div>
-<br>
+![image](hackathonBanner.svg)
 <a style="color:lightblue;" href="https://forms.office.com/r/vFpN0B7Hmm">Register Your School Here</a>
 
 ### Shanghai International School Hackathon Event 2021
