@@ -7,6 +7,7 @@ title: Hackathon Shanghai 2021
 
 ### Shanghai International School Hackathon Event 2021
 > Your ideas and creativity are needed more than ever to bring new solutions to reality. Join the challenge and benefit on many levels.
+
 #### What is it?
 + A collaborative and creative problem solving event
 + The goal of a hackathon is to create working software or hardware by the end of the event
@@ -22,6 +23,7 @@ title: Hackathon Shanghai 2021
 *Create an AI and data-driven solution that helps individuals and the society*
 
 Using sensors and/or third party data *in real time* to help people stay safe and healthy. Such as:
+
 + social distance monitoring
 + fitness and posture tracking
 + disability assistance 
