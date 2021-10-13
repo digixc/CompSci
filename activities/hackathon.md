@@ -10,7 +10,7 @@ title: Hackathon Shanghai 2021
 
 #### What is it?
 + A collaborative and creative problem solving event
-+ The goal of a hackathon is to create working software or hardware by the end of the event
++ The goal of a hackathon is to have some creative fun by creating working software or hardware as teams
 + It has a pre-defined theme
 
 #### Objectives
@@ -37,7 +37,7 @@ Using sensors and/or third party data *in real time* to help people stay safe an
 + *Date*: Saturday November 27th  
 + *Time*: 
 
-| Teams                         | Coding/Making Marathon | Presentation and Awards |
+| Teams                         | Coding/Making Marathon | Presentation  |
 |-------------------------------|------------------------|-------------------------|
 | Junior teams (year 7-9)       | 8AM - 1PM              | 1PM - 2PM               |
 | Senior teams (year 10 and up) | 8AM - 4PM              | 4PM - 5PM               |
